@@ -137,7 +137,7 @@ p.question {
   margin-bottom: 1.5em;
 }
 
-.merchants div a{ height: 90px; margin-bottom: 1em; }
+.merchants div a{ height: 90px; margin-bottom: 1em; padding:0; }
 
 .merchants p
 {
