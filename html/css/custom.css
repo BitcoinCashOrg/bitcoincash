@@ -137,14 +137,14 @@ p.question {
   margin-bottom: 1.5em;
 }
 
-.merchants div a{ height: 90px; margin-bottom: 1em; padding:0; }
+.merchants div a{ height: 90px; margin-bottom: 1em; padding: 0; }
 
 .merchants p
 {
 	width: 100%;
 	height: 90px;
 	background: #fff;
-	border:1px solid #eee;
+	border: 1px solid #eee;
 	padding: 1em;
 
 	display: flex;
@@ -154,3 +154,6 @@ p.question {
 
 	overflow: hidden;
 }
+
+.merchants .sub-section   { margin-bottom: 1.5em; border-bottom: 1px solid #aaa; }
+.merchants .sub-section h4{ margin-bottom: 0.5em; }
