@@ -139,6 +139,8 @@ p.question {
 
 .merchants div a{ height: 90px; margin-bottom: 1em; padding: 0; }
 
+.merchants h3{ margin-bottom: 0; }
+
 .merchants p
 {
 	width: 100%;
@@ -155,5 +157,5 @@ p.question {
 	overflow: hidden;
 }
 
-.merchants .sub-section   { margin-bottom: 1.5em; border-bottom: 1px solid #aaa; }
+.merchants .sub-section   { margin-bottom: 1.5em; margin-top:1em; border-bottom: 1px solid #aaa; }
 .merchants .sub-section h4{ margin-bottom: 0.5em; }
