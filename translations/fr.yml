@@ -60,7 +60,7 @@ en:
         - |
           <strong>On Chain Scalability</strong> - Bitcoin Cash follows the Nakamoto roadmap of global adoption with on-chain scaling. As a first step, the blocksize limit has been made adjustable, with an increased default of 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Research is underway to allow massive future increases</a>.
         - |
-          <strong>New Transaction Signatures</strong> - A new SigHash type provides replay protection, improved hardware wallet security, and elimination of the quadratic hashing problem.
+          <strong>Nouvelles signatures de transaction</strong> - Un nouveau type de SigHash permet une protection contre le replay, améliore la sécurité des portefeuilles matériels et élimine les problèmes de hachage quadratique.
         - |
           <strong>New Difficulty Adjustment Algorithm (DAA)</strong> - Responsive Proof-of-Work difficulty adjustment allows miners to migrate from the legacy Bitcoin chain as desired, while providing protection against hashrate fluctuations.
         - |
@@ -88,10 +88,10 @@ en:
           answer:
             - |
               The legacy Bitcoin code had a maximum limit of 1MB of data per block, or about 3 transactions per second. Although technically simple to raise this limit, the community could not reach a consensus, even after years of debate.
-        - question: "Was the 1 MB block size limit causing problems for Bitcoin?"
+        - question: "La limite des 1 MB par bloc causait-elle les problèmes de Bitcoin ?"
           answer:
             - |
-              Yes, In 2017, capacity hit the 'invisible wall'. Fees skyrocketed, and Bitcoin became unreliable, with some users unable to get their transactions confirmed, even after days of waiting.
+              Oui, en 2017, la capacité du réseau Bitcoin a atteint un "mur invisible". Les frais ont été propulsés, Bitcoin est devenu inefficace, avec des utilisateurs incapables de voir leurs transactions confirmés même après des jours.
             - |
               Bitcoin's market price has increased, but its growth and usefulness as a currency has stagnated. Many users, merchants, businesses and even investors left Bitcoin for alternatives, causing its dominance to fall from 95% to as low as 40%.
         - question: "Does Bitcoin Cash fix these problems?"
