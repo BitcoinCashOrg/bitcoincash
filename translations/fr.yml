@@ -15,11 +15,11 @@ en:
     misc:
       logo: "logo"
     sections:
-      about: "About"
-      features: "Features"
-      nodes: "Nodes"
-      wallets: "Wallets"
-      community: "Community"
+      about: "À propos"
+      features: "Fonctionnalités"
+      nodes: "Noeux"
+      wallets: "Portefeuilles"
+      community: "Communauté"
       services: "Services"
       projects: "Projects"
       exchanges: "Exchanges"
