@@ -73,13 +73,13 @@ en:
         - question: "Bitcoin Cash est-il different de 'Bitcoin' ?"
           answer:
             - |
-              Oui. Bitcoin Cash est la continuation du projet Bitcoin project comme une monnaie electronique pair à pair. C'est un fork de la chaine de block de Bitcoin avec des règles de consensus mises à jour pour permettre de suivre la constante augmentation du nombre d'utilisateurs.
-        - question: "Si je possèdes des Bitcoins, ai-je automatiquement du Bitcoin Cash ?"
+              Oui. Bitcoin Cash est la continuation du projet Bitcoin project comme une monnaie électronique pair-à-pair. C'est un fork de la chaine de bloc de Bitcoin avec des règles de consensus mises à jour pour permettre de suivre la constante augmentation du nombre d'utilisateurs.
+        - question: "Si je possède des Bitcoins, ai-je automatiquement du Bitcoin Cash ?"
           answer:
             - |
-              Toute personne qui possèdait des Bitcoin au moment où Bitcoin Cash a été créé possède des Bitcoin Cash. Cela signifie que toute personne qui possèdait des Bitcoins au block 478558 (1er Aout 2017, 14h16 heure de Paris) possède le même motant de Bitcoin Cash. Si vos Bitcoins étaient sur des bourses d'échanges, vous devez les contacter pour y avoir accès.
+              Toute personne qui possédait des Bitcoins au moment où Bitcoin Cash a été créé possède des Bitcoins Cash. Cela signifie que toute personne qui possédait des Bitcoins au bloc 478558 (1er aout 2017, 14h16 heure de Paris) possède le même montant de Bitcoin Cash. Si vos Bitcoins étaient sur des bourses d'échanges, vous devez les contacter pour y avoir accès.
             - |
-              Toute transaction après cette date sont dans des registres de transactions differents. Chaque Bitcoin acquis ne donne pas une part équivalente de Bitcoin Cash. Chaque Bitcoin Cash acquis ne donne pas une part équivalente de Bitcoin.
+              Toutes les transactions après cette date sont dans des registres de transactions différents. Chaque Bitcoin acquis ne donne pas une part équivalente de Bitcoin Cash. Chaque Bitcoin Cash acquis ne donne pas une part équivalente de Bitcoin.
         - question: "How is transaction replay being handled between the new and the old blockchain?"
           answer:
             - |
