@@ -66,20 +66,20 @@ en:
         - |
           <strong>Decentralized Development</strong> - With multiple independent teams of developers providing software implementations, the future is secure. Bitcoin Cash is resistant to political and social attacks on protocol development. No single group or project can control it. The <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">bitcoin-ml mailing list</a> is a good venue for making proposals for changes that require coordination across development teams.
       faq:
-        - question: "What is Bitcoin Cash?"
+        - question: "Qu'est ce que Bitcoin Cash?"
           answer:
             - |
-              Bitcoin Cash is peer-to-peer electronic cash for the Internet. It is fully decentralized, with no central bank and requires no trusted third parties to operate.
-        - question: "Is Bitcoin Cash different from 'Bitcoin'?"
+              Bitcoin Cash est une monnaie electronique pair à pair. Elle est parfaitement décentralisée : il n'y a aucune banque centrale et elle ne demande aucune confiance en un serveur pour être utilisée.
+        - question: "Bitcoin Cash est-il different de 'Bitcoin' ?"
           answer:
             - |
-              Yes. Bitcoin Cash is the continuation of the Bitcoin project as peer-to-peer digital cash. It is a fork of the Bitcoin blockchain ledger, with upgraded consensus rules that allow it to grow and scale.
-        - question: "If I own Bitcoin, do I automatically own Bitcoin Cash too?"
+              Oui. Bitcoin Cash est la continuation du projet Bitcoin project comme une monnaie electronique pair à pair. C'est un fork de la chaine de block de Bitcoin avec des règles de consensus mises à jour pour permettre de suivre la constante augmentation du nombre d'utilisateurs.
+        - question: "Si je possèdes des Bitcoins, ai-je automatiquement du Bitcoin Cash ?"
           answer:
             - |
-              Anyone who held Bitcoin at the time Bitcoin Cash was created became owners of Bitcoin Cash. This means that Bitcoin holders as of block 478558 (August 1st, 2017 about 13:16 UTC) have the same amount of Bitcoin Cash as they had Bitcoin at that time. If your Bitcoins are stored by a third party such as an exchange, then you must inquire with them about your Bitcoin Cash.
+              Toute personne qui possèdait des Bitcoin au moment où Bitcoin Cash a été créé possède des Bitcoin Cash. Cela signifie que toute personne qui possèdait des Bitcoins au block 478558 (1er Aout 2017, 14h16 heure de Paris) possède le même motant de Bitcoin Cash. Si vos Bitcoins étaient sur des bourses d'échanges, vous devez les contacter pour y avoir accès.
             - |
-              Any transactions after the August 1st ledger split are completely separate between Bitcoin and Bitcoin Cash. This means any Bitcoin acquired after the split does not include any Bitcoin Cash, and any Bitcoin Cash does not include any Bitcoin.
+              Toute transaction après cette date sont dans des registres de transactions differents. Chaque Bitcoin acquis ne donne pas une part équivalente de Bitcoin Cash. Chaque Bitcoin Cash acquis ne donne pas une part équivalente de Bitcoin.
         - question: "How is transaction replay being handled between the new and the old blockchain?"
           answer:
             - |
