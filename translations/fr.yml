@@ -21,8 +21,8 @@ en:
       wallets: "Portefeuilles"
       community: "Communauté"
       services: "Services"
-      projects: "Projects"
-      exchanges: "Exchanges"
+      projects: "Projet"
+      exchanges: "Bourses d'échange"
       faq: "FAQ"
     layout:
       bitcoin_cash: "Bitcoin Cash"
