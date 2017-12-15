@@ -116,10 +116,10 @@ en:
               First, even if used in 100% of transactions, the increase would equate to 1.7MB blocks. Thus, it is a small capacity increase at best. It will not handle exponential growth or worldwide usage. Second, the soft fork implementation results in discardable signatures, which <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">weakens Bitcoin's security model.</a> Third, it makes future capacity increases more difficult due to bandwidth inefficiency and quadratic hashing attacks which SegWit doesn't solve since an attacker isn't forced to use it.
             - |
               For those (and other) reasons, Bitcoin Cash was necessary as a pre-SegWit fork. Segwit will not be adopted.
-        - question: "Which Development Team is In Charge of Bitcoin Cash?"
+        - question: "Quelle équipe de developpement est en charge de Bitcoin Cash ?"
           answer:
             - |
-              Unlike the previous situation in Bitcoin, there is no one single development team for Bitcoin Cash. There are now multiple independent teams of developers.
+              Contrairement à ce qui a pu arriver à Bitcoin, il n'y a pas une seule équipe en charge du développement de Bitcoin Cash. Il a en ce moment même plusieurs équipes indépendantes de développeurs.
             - |
               This decentralization of development (and decentralization of software implementations) is a much needed and important step forward.
         - question: "What is the ticker symbol for Bitcoin Cash?"
