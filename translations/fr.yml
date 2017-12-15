@@ -43,13 +43,13 @@ en:
         description: "World's most robust blockchain technology."
     headings:
       about: "The Best Money in the World"
-      features: "New Features"
-      nodes: "Nodes"
-      wallets: "Wallets"
+      features: "Nouvelles Fonctionnalités"
+      nodes: "Noeux"
+      wallets: "Portefeuilles"
       services: "Services"
-      projects: "Projects"
-      exchanges: "Exchanges"
-      faq: "Frequently Asked Questions"
+      projects: "Projets"
+      exchanges: "Bourse d'échange"
+      faq: "Foire Aux Questions"
     content:
       about:
         - |
