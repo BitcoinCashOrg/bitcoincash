@@ -26,8 +26,8 @@ en:
       faq: "FAQ"
     layout:
       bitcoin_cash: "Bitcoin Cash"
-      lead: "Peer-to-Peer Electronic Cash"
-      loading: "Loading..."
+      lead: "Monnaie Digitale Pair-à-Pair"
+      loading: "Chargement..."
     features:
       - title: "Rapide"
         description: "Envoyé en quelques secondes. Confirmé en quelques minutes."
