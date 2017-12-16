@@ -97,23 +97,23 @@ fr:
         - question: "Does Bitcoin Cash fix these problems?"
           answer:
             - |
-              Oui. Bitcoin Cash immediately raised the block size limit to 8MB as part of a massive on-chain scaling approach. There is ample capacity for everyone's transactions.
+              Oui. Bitcoin Cash a immédiatement augmenté la taille des blocs à 8Mo, pour commencer. Cette capacité suffit largement pour l'utilisation actuelle et fait partie d'un plan d'augmentation de la capacité massif.
             - |
-              Low fees and fast confirmations have returned with Bitcoin Cash. Le réseau recommence à grandir. Utilisateurs, marchants, entreprises et investisseurs construisent le futur avec une vraie monnaie digitale pair-à-pair.
-        - question: "Si c'était aussi simple, pourquoi Bitcoin n'a pas simplement augmenté la taille des blocs ?"
+              Des frais de transaction infimes, des temps de transaction quasi-instantanés, des temps de confirmation à la fois faible et prédictibles sont de retour avec Bitcoin Cash. Le réseau est en train de croître de nouveau. Utilisateurs, commerçants, entreprises, et investisseurs sont en train de construire le futur avec une monnaie pair-à-pair.
+        - question: "Pourquoi la taille des blocs Bitcoin n'a pas été augmenté si c'était aussi simple?"
           answer:
             - |
-              Certains développeurs n'ont pas compris et accepté la vision originale de monnaie digitale pair-à-pair que Satoshi Nakamoto a créé. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Au lieu de ça, ils ont préféré que Bitcoin deviennent un they a settlement layer</a>.
+              Certains développeurs ne comprenait et n'acceptait pas la vision originelle de Satoshi Nakamoto d'une monnaie virtuelle pair-à-pair. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Au lieu de cela, ils ont préféré que Bitcoin deviennent une couche de règlement</a>.
             - |
               Beaucoup de mineurs et d'utilisateurs ont fait confiance à ces développeurs alors que d'autres ont compris que ceux-ci les menaient vers un futur différent de celui attendu.
             - |
-              Ces deux visions de Bitcoin étaient incompatibles, cela a donné lieu à une division de la communauté.
-        - question: "Didn't SegWit increase the block capacity? Will Bitcoin Cash ever have SegWit?"
+              Ces deux visions différentes de Bitcoin étant largements incompatibles, a provoqué une partition de la communauté.
+        - question: "SegWit a déjà augmenté la taille des blocs, non? Est-ce que Bitcoin Cash aura SegWit?"
           answer:
             - |
-              Segregated Witness or "SegWit" is an unacceptable substitute for increasing the blocksize for several reasons.
+              'Segregated Witness' ou 'SegWit' est un substitut inacceptable pour augmenter la taille des blocs pour plusieurs raisons.
             - |
-              First, even if used in 100% of transactions, the increase would equate to 1.7MB blocks. Thus, it is a small capacity increase at best. It will not handle exponential growth or worldwide usage. Second, the soft fork implementation results in discardable signatures, which <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">weakens Bitcoin's security model.</a> Third, it makes future capacity increases more difficult due to bandwidth inefficiency and quadratic hashing attacks which SegWit doesn't solve since an attacker isn't forced to use it.
+              Premièrement, même si utilisé par 100% des transactions, cela représenterait seulement une hausse de 1.7MB par bloc. Ainsi, ce serait augmentation de capacité au mieux dérisoire. Cela ne permettrait pas une croissance exponentielle lié à un usage mondialisé. Deuxièmement, l'implémentation de Segwit par un "soft fork" (par opposition aux hard forks que Bitcoin Cash favorise) l'implémentation implique des champ de signatures vierges, ce qui <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">diminue la sécurité des transactions Bitcoin.</a> Troisièmement, les futurs augmentation de capacité seront rendus plus difficile car SegWit en réalité augmente la taille individuelle des transactions et ne régle pas le problème du quadratic hashing pour les transactions non-SegWit. Ces inneficiences constituent des opportunités supplémentaires pour un éventuel attaquant - qui n'est pas obligé d'utiliser le format de transaction segwit.
             - |
               For those (and other) reasons, Bitcoin Cash was necessary as a pre-SegWit fork. Segwit will not be adopted.
         - question: "Quelle équipe de developpement est en charge de Bitcoin Cash ?"
@@ -122,7 +122,7 @@ fr:
               Contrairement à ce qui a pu arriver à Bitcoin, il n'y a pas une seule équipe en charge du développement de Bitcoin Cash. Il a en ce moment même plusieurs équipes indépendantes de développeurs.
             - |
               Cette décentralisation du développement (et décentralisation des implémentations logicielles) est nécessaire et est une importante avancée.
-        - question: "Quel est le code pour Bitcoin Cash?"
+        - question: "Quelle est le code symbole pour Bitcoin Cash?"
           answer:
             - |
-              Bitcoin Cash est représenté par un certain nombre de codes selon les services ou les portefeuilles. BCH/BCC sont les plus populaires, avec XBT utilisé pour suivre la norme ISO 4217.
+              Bitcoin Cash est actuellement représenté par deux ticker selon le service ou le porte monnaie électronique utilisé. BCH ou BCC sont les plus utilisés, avec XBC qui est le symbole international conforme à ISO 4217.
