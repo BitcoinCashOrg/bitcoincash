@@ -97,7 +97,7 @@ en:
         - question: "Does Bitcoin Cash fix these problems?"
           answer:
             - |
-              Yes. Bitcoin Cash immediately raised the block size limit to 8MB as part of a massive on-chain scaling approach. There is ample capacity for everyone's transactions.
+              Oui. Bitcoin Cash immediately raised the block size limit to 8MB as part of a massive on-chain scaling approach. There is ample capacity for everyone's transactions.
             - |
               Low fees and fast confirmations have returned with Bitcoin Cash. Le réseau recommence à grandir. Utilisateurs, marchants, entreprises et investisseurs construisent le futur avec une vraie monnaie digitale pair-à-pair.
         - question: "Si c'était aussi simple, pourquoi Bitcoin n'a pas simplement augmenté la taille des blocs ?"
@@ -121,8 +121,8 @@ en:
             - |
               Contrairement à ce qui a pu arriver à Bitcoin, il n'y a pas une seule équipe en charge du développement de Bitcoin Cash. Il a en ce moment même plusieurs équipes indépendantes de développeurs.
             - |
-              This decentralization of development (and decentralization of software implementations) is a much needed and important step forward.
-        - question: "What is the ticker symbol for Bitcoin Cash?"
+              Cette décentralisation du développement (et décentralisation des implémentations logicielles) est nécessaire et est une importante avancée.
+        - question: "Quel est le code pour Bitcoin Cash?"
           answer:
             - |
-              Bitcoin Cash is represented by a number of different ticker symbols depending on the service or wallet. BCH/BCC are the most popular tickers, with XBC being used to meet the International Standard for currency codes (ISO 4217).
+              Bitcoin Cash est représenté par un certain nombre de codes selon les services ou les portefeuilles. BCH/BCC sont les plus populaires, avec XBT utilisé pour suivre la norme ISO 4217.
