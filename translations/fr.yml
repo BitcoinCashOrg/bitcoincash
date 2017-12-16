@@ -99,15 +99,15 @@ en:
             - |
               Yes. Bitcoin Cash immediately raised the block size limit to 8MB as part of a massive on-chain scaling approach. There is ample capacity for everyone's transactions.
             - |
-              Low fees and fast confirmations have returned with Bitcoin Cash. The network is growing again. Users, merchants, businesses, and investors are building the future with real peer to peer cash.
-        - question: "Why didn't Bitcoin raise the block size if it was easy?"
+              Low fees and fast confirmations have returned with Bitcoin Cash. Le réseau recommence à grandir. Utilisateurs, marchants, entreprises et investisseurs construisent le futur avec une vraie monnaie digitale pair-à-pair.
+        - question: "Si c'était aussi simple, pourquoi Bitcoin n'a pas simplement augmenté la taille des blocs ?"
           answer:
             - |
-              Some of the developers did not understand and agree with the original vision of peer-to-peer electronic cash that Satoshi Nakamoto had created. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Instead, they preferred Bitcoin become a settlement layer</a>.
+              Certains développeurs n'ont pas compris et accepté la vision originale de monnaie digitale pair-à-pair que Satoshi Nakamoto a créé. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Au lieu de ça, ils ont préféré que Bitcoin deviennent un they a settlement layer</a>.
             - |
-              Many miners and users trusted these developers, while others recognized that they were leading the community down a different road than expected.
+              Beaucoup de mineurs et d'utilisateurs ont fait confiance à ces développeurs alors que d'autres ont compris que ceux-ci les menaient vers un futur différent de celui attendu.
             - |
-              These two very different visions for Bitcoin are largely incompatible, which led to the community divide.
+              Ces deux visions de Bitcoin étaient incompatibles, cela a donné lieu à une division de la communauté.
         - question: "Didn't SegWit increase the block capacity? Will Bitcoin Cash ever have SegWit?"
           answer:
             - |
