@@ -66,7 +66,7 @@ fr:
         - |
           <strong>Dévellopement Décentralisé</strong> - Avec plusieurs groupes de développeurs qui implémentent autant de logiciels compatibles avec le protocole Bitcoin Cash, le futur est assuré : Le développement du protocole de Bitcoin Cash est résistant aux attaques politiques et sociales. Aucun groupe ou projet ne peut en prendre le contrôle. La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">liste de diffusion bitcoin-ml</a> est le point d'entrée pour les nouvelles propositions et le centre de coordination entre les différentes équipes de développement.
       faq:
-        - question: "Qu'est ce que Bitcoin Cash?"
+        - question: "Qu'est ce que Bitcoin Cash ?"
           answer:
             - |
         - question: "Bitcoin Cash est-il different de 'Bitcoin' ?"
@@ -74,7 +74,7 @@ fr:
           answer:
             - |
               Oui. Bitcoin Cash est la continuation du projet Bitcoin project comme une monnaie électronique pair-à-pair. C'est un fork de la chaine de bloc de Bitcoin avec des règles de consensus mises à jour pour permettre de suivre la constante augmentation du nombre d'utilisateurs.
-        - question: "Si je possède des Bitcoins, ai-je automatiquement du Bitcoin Cash ?"
+        - question: "Si je détiens des Bitcoins, ai-je automatiquement des Bitcoins Cash ?"
           answer:
             - |
               Toute personne qui possédait des Bitcoins au moment où Bitcoin Cash a été créé possède des Bitcoins Cash. Cela signifie que toute personne qui possédait des Bitcoins au bloc 478558 (1er aout 2017, 14h16 heure de Paris) possède le même montant de Bitcoin Cash. Si vos Bitcoins étaient sur des bourses d'échanges, vous devez les contacter pour y avoir accès.
@@ -91,21 +91,20 @@ fr:
         - question: "La limite des 1 MB par bloc causait-elle les problèmes de Bitcoin ?"
           answer:
             - |
-              Oui, en 2017, la capacité du réseau Bitcoin a atteint un "mur invisible". Les frais ont été propulsés, Bitcoin est devenu inefficace, avec des utilisateurs incapables de voir leurs transactions confirmés même après des jours.
             - |
-              La capitalisation boursière de Bitcoin a augmenté, mais sa croissance et son utilité en tant que monnaie ont stagné. Bon nombre d'utilisateurs, marchants, entreprises et même investisseurs ont quitté Bitcoin pour des alternatives, causant une baisse de la domination de Bitcoin de 95% à 40%.
-        - question: "Does Bitcoin Cash fix these problems?"
+              Le prix du Bitcoin a augmenté, mais sa croissance et son utilité comme monnaie ont stagné. Beaucoup d'utilisateurs, commerçants, entreprises et même des investisseurs ont quitté Bitcoin pour des alternatives, résultant dans une perte de dominance de 95% à 40% à son plus bas.
+        - question: "Est-ce que Bitcoin Cash règle ces problèmes?"
           answer:
             - |
               Oui. Bitcoin Cash a immédiatement augmenté la taille des blocs à 8Mo, pour commencer. Cette capacité suffit largement pour l'utilisation actuelle et fait partie d'un plan d'augmentation de la capacité massif.
             - |
               Des frais de transaction infimes, des temps de transaction quasi-instantanés, des temps de confirmation à la fois faible et prédictibles sont de retour avec Bitcoin Cash. Le réseau est en train de croître de nouveau. Utilisateurs, commerçants, entreprises, et investisseurs sont en train de construire le futur avec une monnaie pair-à-pair.
-        - question: "Pourquoi la taille des blocs Bitcoin n'a pas été augmenté si c'était aussi simple?"
+        - question: "Pourquoi la taille des blocs Bitcoin n'a pas été augmenté si c'était aussi simple ?"
           answer:
             - |
               Certains développeurs ne comprenait et n'acceptait pas la vision originelle de Satoshi Nakamoto d'une monnaie virtuelle pair-à-pair. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Au lieu de cela, ils ont préféré que Bitcoin deviennent une couche de règlement</a>.
             - |
-              Beaucoup de mineurs et d'utilisateurs ont fait confiance à ces développeurs alors que d'autres ont compris que ceux-ci les menaient vers un futur différent de celui attendu.
+              Beaucoup de mineurs et d'utilisateurs croyaient en ces développeurs, alors que d'autres ont compris qu'ils étaient en train de mener la communauté sur une route différente que celle prévue.
             - |
               Ces deux visions différentes de Bitcoin étant largements incompatibles, a provoqué une partition de la communauté.
         - question: "SegWit a déjà augmenté la taille des blocs, non? Est-ce que Bitcoin Cash aura SegWit?"
@@ -115,8 +114,8 @@ fr:
             - |
               Premièrement, même si utilisé par 100% des transactions, cela représenterait seulement une hausse de 1.7MB par bloc. Ainsi, ce serait augmentation de capacité au mieux dérisoire. Cela ne permettrait pas une croissance exponentielle lié à un usage mondialisé. Deuxièmement, l'implémentation de Segwit par un "soft fork" (par opposition aux hard forks que Bitcoin Cash favorise) l'implémentation implique des champ de signatures vierges, ce qui <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">diminue la sécurité des transactions Bitcoin.</a> Troisièmement, les futurs augmentation de capacité seront rendus plus difficile car SegWit en réalité augmente la taille individuelle des transactions et ne régle pas le problème du quadratic hashing pour les transactions non-SegWit. Ces inneficiences constituent des opportunités supplémentaires pour un éventuel attaquant - qui n'est pas obligé d'utiliser le format de transaction segwit.
             - |
-              For those (and other) reasons, Bitcoin Cash was necessary as a pre-SegWit fork. Segwit will not be adopted.
-        - question: "Quelle équipe de developpement est en charge de Bitcoin Cash ?"
+              Pour ces raisons (et d'autres), il était nécessaire de forker Bitcoin Cash avant que Segwit ne soit activé. Et SegWit ne sera probablement jamais adopté sur Bitcoin Cash. 
+        - question: "Quelle équipe de développement est en charge de Bitcoin Cash ?"
           answer:
             - |
               Contrairement à ce qui a pu arriver à Bitcoin, il n'y a pas une seule équipe en charge du développement de Bitcoin Cash. Il a en ce moment même plusieurs équipes indépendantes de développeurs.
