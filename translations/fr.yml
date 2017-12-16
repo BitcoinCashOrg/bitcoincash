@@ -1,15 +1,15 @@
 ---
-  title: "Bitcoin Cash - Monnaie Digitale Pair-à-Pair"
 fr:
+  title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
   meta:
     description: |
       Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
     twitter:
-      title: "Bitcoin Cash - Monnaie Digitale Pair-à-Pair"
+      title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
       description: |
       Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
     og:
-      title: "Bitcoin Cash - Monnaie Digitale Pair-à-Pair"
+      title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
       description: |
       Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
     misc:
@@ -26,7 +26,7 @@ fr:
       faq: "FAQ"
     layout:
       bitcoin_cash: "Bitcoin Cash"
-      lead: "Monnaie Digitale Pair-à-Pair"
+      lead: "Monnaie virtuelle Pair-à-Pair"
       loading: "Chargement..."
     features:
       - title: "Rapide"
@@ -53,9 +53,9 @@ fr:
     content:
       about:
         - |
-          Bitcoin Cash brings sound money to the world, fulfilling the original promise of Bitcoin as "Peer-to-Peer Electronic Cash". Merchants and users are empowered with low fees and reliable confirmations. The future shines brightly with unrestricted growth, global adoption, permissionless innovation, and decentralized development.
+          Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
         - |
-          All Bitcoin holders as of block 478558 are also owners of Bitcoin Cash. All are welcome to join the Bitcoin Cash community as we move forward in creating sound money accessible to the whole world.
+          Tous les détenteurs de Bitcoins au bloc 478558 sont détenteurs de Bitcoins Cash. Tous sont les bienvenues à se joindre à la communauté Bitcoin Cash pour créer une monnaie saine accessible au monde entier.
       features:
         - |
           <strong>On Chain Scalability</strong> - Bitcoin Cash follows the Nakamoto roadmap of global adoption with on-chain scaling. As a first step, the blocksize limit has been made adjustable, with an increased default of 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Research is underway to allow massive future increases</a>.
@@ -69,8 +69,8 @@ fr:
         - question: "Qu'est ce que Bitcoin Cash?"
           answer:
             - |
-              Bitcoin Cash est une monnaie electronique pair à pair. Elle est parfaitement décentralisée : il n'y a aucune banque centrale et elle ne demande aucune confiance en un serveur pour être utilisée.
         - question: "Bitcoin Cash est-il different de 'Bitcoin' ?"
+              Bitcoin Cash est une monnaie virtuelle Pair-à-Pair. Elle est complétement décentralisé, sans banque centrale et n'a pas besoin de tiers pour fonctionner.
           answer:
             - |
               Oui. Bitcoin Cash est la continuation du projet Bitcoin project comme une monnaie électronique pair-à-pair. C'est un fork de la chaine de bloc de Bitcoin avec des règles de consensus mises à jour pour permettre de suivre la constante augmentation du nombre d'utilisateurs.
