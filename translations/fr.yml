@@ -1,28 +1,28 @@
 ---
-en:
   title: "Bitcoin Cash - Monnaie Digitale Pair-à-Pair"
+fr:
   meta:
     description: |
-      Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. L'avenir brille avec une croissance sans restriction, une adoption mondiale, une innovation sans permission et un développement décentralisé.
+      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
     twitter:
       title: "Bitcoin Cash - Monnaie Digitale Pair-à-Pair"
       description: |
-        Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. L'avenir brille avec une croissance sans restriction, une adoption mondiale, une innovation sans permission et un développement décentralisé.
+      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
     og:
       title: "Bitcoin Cash - Monnaie Digitale Pair-à-Pair"
       description: |
-        Bitcoin Cash brings sound money to the world. Merchants and users are empowered with low fees and reliable confirmations. L'avenir brille avec une croissance sans restriction, une adoption mondiale, une innovation sans permission et un développement décentralisé.
+      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
     misc:
       logo: "logo"
     sections:
-      about: "À propos"
+      about: "A propos"
       features: "Fonctionnalités"
-      nodes: "Noeux"
-      wallets: "Portefeuilles"
+      nodes: "Noeuds"
+      wallets: "Portefeuille"
       community: "Communauté"
       services: "Services"
-      projects: "Projet"
-      exchanges: "Bourses d'échange"
+      projects: "Projets"
+      exchanges: "Plateforme d'échanges"
       faq: "FAQ"
     layout:
       bitcoin_cash: "Bitcoin Cash"
@@ -31,25 +31,25 @@ en:
     features:
       - title: "Rapide"
         description: "Envoyé en quelques secondes. Confirmé en quelques minutes."
-      - title: "Efficace"
-        description: "Un réseau qui fonctionne sans bouchon."
-      - title: "Peu de frais"
-        description: "Envoyez de l'argent dans le monde entier pour quelques centimes."
+      - title: "Fiable"
+        description: "Un réseau qui fonctionne, sans congestion."
+      - title: "Frais infimes"
+        description: "Envoyez de l'argent mondialement pour quelques centimes."
       - title: "Simple"
         description: "Simple à utiliser. Sans difficulté."
       - title: "Stable"
         description: "Un système de paiement prouvé comme valeur refuge."
       - title: "Securisé"
-        description: "World's most robust blockchain technology."
+        description: "La technologie Blockchain la plus robuste."
     headings:
-      about: "The Best Money in the World"
-      features: "Nouvelles Fonctionnalités"
-      nodes: "Noeux"
-      wallets: "Portefeuilles"
+      about: "La meilleure monnaie du Monde"
+      features: "Nouvelles fonctionnalités"
+      nodes: "Noeuds"
+      wallets: "Portefeuille"
       services: "Services"
       projects: "Projets"
-      exchanges: "Bourse d'échange"
       faq: "Foire Aux Questions"
+      exchanges: "Plateforme d'échanges"
     content:
       about:
         - |
