@@ -83,7 +83,7 @@ fr:
         - question: "How is transaction replay being handled between the new and the old blockchain?"
           answer:
             - |
-              Bitcoin Cash transactions use a new signature hashing algorithm indicated by the flag SIGHASH_FORKID. These signatures are not valid on the Bitcoin Legacy network. This prevents Bitcoin Cash transactions from being replayed on the Bitcoin blockchain and vice versa.
+              Les transactions Bitcoin Cash utilise un nouvel algorithme de signature indiqué par le drapeau SIGHASH_FORKID. Ces signatures ne sont pas valides sur le réseau Bitcoin originel. Cela empêche les transactions Bitcoin Cash d'être reprises sur la chaine de blocs de Bitcoin et vice versa.
         - question: "Pourquoi la fourche était nécessaire pour créer Bitcoin Cash ?"
           answer:
             - |
