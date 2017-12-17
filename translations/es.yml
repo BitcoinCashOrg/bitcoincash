@@ -1,15 +1,15 @@
 ---
 es:
-  title: "Bitcoin Cash - Efectivo Electrónico de Usuario a Usuario"
+  title: "Bitcoin Cash - Dinero electrónico de usuario a usuario"
   meta:
     description: |
       Bitcoin Cash es una moneda fuerte al alcance de todo el mundo. Usuarios y comerciantes se potencian con bajos costos de transacción y confirmaciones confiables. Un futuro brillante ante un crecimiento sin restricciones, adopción global, innovación disruptiva, y desarrollo descentralizado.
     twitter:
-      title: "Bitcoin Cash - Efectivo Electrónico de Usuario a Usuario"
+      title: "Bitcoin Cash - Dinero electrónico de usuario a usuario"
       description: |
         Bitcoin Cash es una moneda fuerte al alcance de todo el mundo. Usuarios y comerciantes se potencian con bajos costos de transacción y confirmaciones confiables. Un futuro brillante ante un crecimiento sin restricciones, adopción global, innovación disruptiva, y desarrollo descentralizado.
     og:
-      title: "Bitcoin Cash - Efectivo Electrónico de Usuario a Usuario"
+      title: "Bitcoin Cash - Dinero electrónico de usuario a usuario"
       description: |
         Bitcoin Cash es una moneda fuerte al alcance de todo el mundo. Usuarios y comerciantes se potencian con bajos costos de transacción y confirmaciones confiables. Un futuro brillante ante un crecimiento sin restricciones, adopción global, innovación disruptiva, y desarrollo descentralizado.
     misc:
@@ -18,7 +18,7 @@ es:
       about: "Acerca de"
       features: "Características"
       nodes: "Nodos"
-      wallets: "Billeteras"
+      wallets: "Monederos"
       community: "Comunidad"
       services: "Servicios"
       projects: "Proyectos"
@@ -26,7 +26,7 @@ es:
       faq: "Preguntas Frecuentes"
     layout:
       bitcoin_cash: "Bitcoin Cash"
-      lead: "Efectivo Electrónico de Usuario a Usuario"
+      lead: "Dinero electrónico de usuario a usuario"
       loading: "Cargando..."
     features:
       - title: "Rápido"
@@ -45,7 +45,7 @@ es:
       about: "El Mejor Dinero del Mundo"
       features: "Nuevas Funciones"
       nodes: "Nodos"
-      wallets: "Billeteras"
+      wallets: "Monederos"
       services: "Servicios"
       projects: "Proyectos"
       exchanges: "Casas de Cambio"
@@ -53,14 +53,14 @@ es:
     content:
       about:
         - |
-          Bitcoin Cash es una moneda fuerte al alcance de todo el mundo, cumpliendo la promesa original de Bitcoin como "Efectivo Electrónico de Usuario a Usuario". Usuarios y comerciantes se potencian con bajos costos de transacción y confirmaciones confiables. Un futuro brillante ante un crecimiento sin restricciones, adopción global, innovación disruptiva, y desarrollo descentralizado.
+          Bitcoin Cash es una moneda fuerte al alcance de todo el mundo, cumpliendo la promesa original de Bitcoin como "Dinero electrónico de usuario a usuario". Usuarios y comerciantes se potencian con bajos costos de transacción y confirmaciones confiables. Un futuro brillante ante un crecimiento sin restricciones, adopción global, innovación disruptiva, y desarrollo descentralizado.
         - |
           Todos los poseedores de Bitcoin al bloque 478558 son también poseedores de Bitcoin Cash. Todos son bienvenidos a participar con la comunidad Bitcoin Cash en este camino de crear una moneda fuerte al alcance del mundo entero.
       features:
         - |
           <strong>Escalabilidad On-Chain</strong> - Bitcoin Cash adhiere al plan de Nakamoto de alcanzar adopción global mediante escalabilidad on-chain. Como primer paso, se ha permitido que el límite al tamaño de bloque sea ajustable, con un primer incremento por defecto de 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Se están investigando actualmente alternativas para lograr incrementos masivos en el futuro</a>.
         - |
-          <strong>Nuevas Firmas Digitales</strong> - Un nuevo tipo de SigHash provee protección ante ataques de repetición, mejor seguridad para billeteras en hardware, y la eliminación del problema de hashing cuadrático.
+          <strong>Nuevas Firmas Digitales</strong> - Un nuevo tipo de SigHash provee protección ante ataques de repetición, mejor seguridad para monederos en hardware, y la eliminación del problema de hashing cuadrático.
         - |
           <strong>Nuevo Algoritmo de Ajuste de Dificultad (AAD)</strong> - Un algoritmo reactivo de ajuste de dificultad permite que los mineros migren desde la cadena antigua de Bitcoin cuando lo deseen, brindando al mismo tiempo protección ante fluctuaciones en el poder de minado.
         - |
@@ -69,11 +69,11 @@ es:
         - question: "Qué es Bitcoin Cash?"
           answer:
             - |
-              Bitcoin Cash es Efectivo Electrónico de Usuario a Usuario para la Internet. Es completamente descentralizado. Para operar, no requiere un banco central ni terceros en quiénes sea necesario depositar nuestra confianza.
+              Bitcoin Cash es Dinero electrónico de usuario a usuario para la Internet. Es completamente descentralizado. Para operar, no requiere un banco central ni terceros en quiénes sea necesario depositar nuestra confianza.
         - question: "Son diferentes Bitcoin Cash y 'Bitcoin'?"
           answer:
             - |
-              Sí. Bitcoin Cash es la continuación del proyecto Bitcoin como efectivo electrónico de usuario a usuario. Es una bifurcación de la blockchain de Bitcoin, actualizada con reglas de consenso que le permiten crecer y alcanzar grandes escalas.
+              Sí. Bitcoin Cash es la continuación del proyecto Bitcoin como Dinero electrónico de usuario a usuario. Es una bifurcación de la blockchain de Bitcoin, actualizada con reglas de consenso que le permiten crecer y alcanzar grandes escalas.
         - question: "Si soy dueño de Bitcoin, también soy automáticamente dueño de Bitcoin Cash?"
           answer:
             - |
@@ -91,7 +91,7 @@ es:
         - question: "¿Fue el límite de 1MB al tamaño de bloque lo que causó problemas en Bitcoin?"
           answer:
             - |
-              Sí. En el año 2017, la capacidad se topó con esta 'pared invisible'. Los costos de transacción se dispararon, Bitcoin cesó de ser confiable, y algunos usuarios se vieron incapaces de obtener confirmaciones para sus transacciones incluso luego de días de espera.
+              Sí. En el año 2017, la capacidad se topó con este 'muro invisible'. Los costos de transacción se dispararon, Bitcoin cesó de ser confiable, y algunos usuarios se vieron incapaces de obtener confirmaciones para sus transacciones incluso luego de días de espera.
             - |
               El precio de mercado de Bitcoin ha incrementado, pero su crecimiento y su utilidad como una moneda de intercambio se han estancado. Muchos usuarios, comerciantes, empresas, e incluso inversores han abandonado Bitcoin y han migrado a otras alternativas, causando que la prominencia de Bitcoin cayera del 95% a números tan bajos como el 40%.
         - question: "¿Soluciona Bitcoin Cash estos problemas?"
@@ -103,7 +103,7 @@ es:
         - question: "¿Por qué no ha incrementado Bitcoin el tamaño de bloque si era tan sencillo?"
           answer:
             - |
-              Algunos desarrolladores no comprenden o no están de acuerdo con la visión original de Efectivo Electrónico de Usuario a Usuario que creó Satoshi Nakamoto. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">En cambio, han preferido que Bitcoin se convierta en una plataforma de liquidación.</a>.
+              Algunos desarrolladores no comprenden o no están de acuerdo con la visión original de Dinero electrónico de usuario a usuario que creó Satoshi Nakamoto. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">En cambio, han preferido que Bitcoin se convierta en una plataforma de liquidación.</a>.
             - |
               Muchos mineros y usuarios confiaron en estos desarrolladores, mientras que otros han percibido que ellos estaban dirigiendo a la comunidad por un camino distinto al esperado.
             - |
@@ -125,4 +125,4 @@ es:
         - question: "¿Cuál es el símbolo monetario de Bitcoin Cash?"
           answer:
             - |
-              Bitcoin Cash se encuentra representado por múltiples símbolos monetarios en distintos servicios o billeteras. BCH/BCC son los símbolos más populares, con XBC siendo utilizado en casos donde se necesite adherir al estándar internacional para símbolos monetarios (ISO 4217).
+              Bitcoin Cash se encuentra representado por distintos códigos bursátiles en múltiples servicios o monederos. BCH/BCC son los símbolos más populares, con XBC siendo utilizado en casos donde se necesite adherir al estándar internacional para símbolos monetarios (ISO 4217).
