@@ -95,6 +95,10 @@ section.gray {
   background-color: #FAFAFA;
 }
 
+section.border-top {
+  border-top: 1px solid #EAEAEA;
+}
+
 section.border-bottom {
   border-bottom: 1px solid #EAEAEA;
 }
@@ -108,11 +112,11 @@ p.question {
   margin-bottom: 1.04em;
 }
 
-.nodes div a:hover, .wallets div a:hover, .services div a:hover, .exchanges div a:hover{
+.nodes div a:hover, .wallets div a:hover, .services div a:hover, .exchanges div a:hover, .merchants div a:hover{
   border-bottom: 3px solid #F08B16;
 }
 
-.nodes div a, .wallets div a, .services div a, .exchanges div a{
+.nodes div a, .wallets div a, .services div a, .exchanges div a, .merchants div a{
   padding: 2em;
   width: 100%;
   height: 120px;
@@ -132,3 +136,26 @@ p.question {
   justify-content: center;
   margin-bottom: 1.5em;
 }
+
+.merchants div a{ height: 90px; margin-bottom: 1em; padding: 0; }
+
+.merchants h3{ margin-bottom: 0; }
+
+.merchants p
+{
+	width: 100%;
+	height: 90px;
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 1em;
+
+	display: flex;
+	align-items: center;
+	text-align: left;
+	justify-content: left;
+
+	overflow: hidden;
+}
+
+.merchants .sub-section   { margin-bottom: 1.5em; margin-top:1em; border-bottom: 1px solid #aaa; }
+.merchants .sub-section h4{ margin-bottom: 0.5em; }
