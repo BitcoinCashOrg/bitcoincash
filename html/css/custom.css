@@ -201,7 +201,7 @@ p.question {
 
 @media only screen and (min-width: 1170px) {
   .bcc-timeline-block {
-    margin: 4em 0;
+    margin: 2em 0;
   }
 
   .bcc-timeline-block:first-child {
@@ -273,7 +273,6 @@ p.question {
 }
 
 .bcc-timeline-content .bcc-date {
-  float: left;
   padding: .8em 0;
   opacity: .7;
 }
@@ -291,7 +290,11 @@ p.question {
 
 .bcc-timeline-block .bcc-timeline-content .bcc-read-more {
   float: right;
-  font-size: 0.8em;
+  padding-left: 0.8em;
+}
+
+.bcc-timeline-block .bcc-timeline-content .bcc-read-more a img {
+  vertical-align: top;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -299,6 +302,7 @@ p.question {
     margin-left: 0;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    padding-right: 0.5em;
     width: 45%;
   }
 
