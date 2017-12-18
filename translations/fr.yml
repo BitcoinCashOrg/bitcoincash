@@ -3,15 +3,15 @@ fr:
   title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
   meta:
     description: |
-      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
+      Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
     twitter:
       title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
       description: |
-        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
+        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
     og:
       title: "Bitcoin Cash - Monnaie virtuelle Pair-à-Pair"
       description: |
-        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
+        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
   misc:
     logo: "logo"
   sections:
@@ -34,18 +34,18 @@ fr:
     - title: "Fiable"
       description: "Un réseau qui fonctionne, sans congestion."
     - title: "Frais infimes"
-      description: "Envoyez de l'argent mondialement pour quelques centimes."
+      description: "Envoyez de l'argent partout dans le monde pour quelques centimes."
     - title: "Simple"
       description: "Simple à utiliser. Sans difficulté."
     - title: "Stable"
-      description: "Un système de paiement prouvé comme valeur refuge."
+      description: "Un système de paiement prouvé comme étant une valeur refuge."
     - title: "Securisé"
       description: "La technologie Blockchain la plus robuste."
   headings:
     about: "La meilleure monnaie du Monde"
     features: "Nouvelles fonctionnalités"
-    nodes: "Noeuds"
-    wallets: "Portefeuille"
+    nodes: "Nœuds"
+    wallets: "Portefeuilles"
     services: "Services"
     projects: "Projets"
     faq: "Foire Aux Questions"
@@ -53,36 +53,36 @@ fr:
   content:
     about:
       - |
-        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption globale, des innovations sans limites, et un développement décentralisé.
+        Bitcoin Cash apporte une monnaie saine au monde. Commerçants et utilisateurs bénéficient de frais infimes et de confirmations sûrs. L'avenir brille avec une croissance libre, une adoption mondiale, des innovations sans limites, et un développement décentralisé.
       - |
         Tous les détenteurs de Bitcoins au bloc 478558 sont détenteurs de Bitcoins Cash. Tous sont les bienvenues à se joindre à la communauté Bitcoin Cash pour créer une monnaie saine accessible au monde entier.
     features:
       - |
-        <strong>Evolutivité "On Chain"</strong> - Bitcoin Cash poursuit la vision de Satoshi Nakamoto roadmap d'une adoption globale en enregistrant l'ensemble des transactions dans la blockchain ("On Chain"). Dans un premier temps, la limite de taille des blocs à été rendue ajustable, avec une valeur proposée par défaut de 8MB. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Des recherches sont en cours (quit ont d'ores et déjà validé des résultats significatifs) afin de permettre des augmentation massive da la taille de ces blocs</a>.
+        <strong>Evolutivité "On Chain"</strong> - Bitcoin Cash poursuit la vision de Satoshi Nakamoto pour une adoption mondiale où l'ensemble des transactions sont effectuée à même la chaine ("On Chain"). Dans un premier temps, la limite de taille des blocs est devenue ajustable, avec une valeur proposée par défaut de 8Mo. <a href="https://github.com/BitcoinUnlimited/BUIP/blob/master/065.mediawiki" target="_blank">Des recherches sont en cours (qui ont d'ores et déjà abouties à des résultats significatifs) afin de permettre l’augmentation massive da la taille des blocs</a>.
       - |
-        <strong>Nouvel algorithme pour les Signatures</strong> - Un nouvel algorithme de signature permet d'éviter qu'un attaquant puisse intercepter une transaction sur la chaine Bitcoin, et la re-diffuser une seconde fois sur la chaine Bitcoin Cash - et vice versa ("replay protection"). Cette fonctionnalité vous permet d'utiliser vos applications de manière sécurisée et sans arrières pensée. Par ailleurs, cet algorithme permet de résoudre un problème lié à un cas adverse entrainant une augmentation quadratique du temps de validation des signatures, connu sous le nom de "Quadratic Hashing".
+        <strong>Nouvel algorithme pour les signatures</strong> - Un nouvel algorithme de signature permet d'éviter qu'un attaquant puisse intercepter une transaction sur la chaine Bitcoin, et la rediffuser une seconde fois sur la chaine Bitcoin Cash - et vice versa ("replay protection"). Cette fonctionnalité vous permet d'utiliser vos applications de manière sécurisée et sans arrières pensée. Par ailleurs, cet algorithme permet de résoudre un problème lié à un cas adverse entrainant une augmentation quadratique du temps de validation des signatures, connu sous le nom de "Quadratic Hashing".
       - |
-        <strong>Nouvel algorithme d'ajustement de la difficulté (Difficulty Adjustment Algorithm ou DAA)</strong> - L'algorithme calculant la difficulté pour le minage (Proof-of-Work) à été légèrement modifié afin d'en optimiser la réactivité pour permettre aux mineurs de migrer de l'ancienne chaine Bitcoin selon leur désir, sans que cela implique de variation notable dans le temps moyen entre les blocs de données.
+        <strong>Nouvel algorithme d'ajustement de la difficulté (Difficulty Adjustment Algorithm ou DAA)</strong> - L'algorithme calculant la difficulté pour le minage (Proof-of-Work) a été légèrement modifié afin d'en optimiser la réactivité. Cela permet aux mineurs de migrer de l'ancienne chaine Bitcoin vers la nouvelle selon leurs désirs tout en maintenant le temps moyen entre les blocs de données.
       - |
         <strong>Dévellopement Décentralisé</strong> - Avec plusieurs groupes de développeurs qui implémentent autant de logiciels compatibles avec le protocole Bitcoin Cash, le futur est assuré : Le développement du protocole de Bitcoin Cash est résistant aux attaques politiques et sociales. Aucun groupe ou projet ne peut en prendre le contrôle. La <a href="https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-ml" target="_blank">liste de diffusion bitcoin-ml</a> est le point d'entrée pour les nouvelles propositions et le centre de coordination entre les différentes équipes de développement.
     faq:
       - question: "Qu'est ce que Bitcoin Cash ?"
         answer:
           - |
-            Bitcoin Cash est l'argent électronique peer-to-peer pour Internet. Il est entièrement décentralisé, sans banque centrale et ne nécessite aucun tiers de confiance pour fonctionner.
-      - question: "Bitcoin Cash est-il different de 'Bitcoin' ?"
+            Bitcoin Cash est une monnaie virtuelle Pair-à-Pair. Elle est complétement décentralisée, sans banque centrale et n'a pas besoin de tiers pour fonctionner.
+      - question: "Bitcoin Cash est-il diffèrent de 'Bitcoin' ?"
         answer:
           - |
-            Bitcoin Cash est une monnaie virtuelle Pair-à-Pair. Elle est complétement décentralisé, sans banque centrale et n'a pas besoin de tiers pour fonctionner.
+            Oui. Bitcoin Cash s’inscrit dans la continuité du projet Bitcoin en tant que “monnaie numérique pai-à-pair”. Ceci dit, Bitcoin Cash est une divergence de la chaine Bitcoin car elle apporte une évolution de son ensemble de règles pour permettre une plus grande croissance et une plus grande adoption. 
         answer:
           - |
             Oui. Bitcoin Cash est la continuation du projet Bitcoin project comme une monnaie électronique pair-à-pair. C'est un fork de la chaine de bloc de Bitcoin avec des règles de consensus mises à jour pour permettre de suivre la constante augmentation du nombre d'utilisateurs.
       - question: "Si je détiens des Bitcoins, ai-je automatiquement des Bitcoins Cash ?"
         answer:
           - |
-            Toute personne qui possédait des Bitcoins au moment où Bitcoin Cash a été créé possède des Bitcoins Cash. Cela signifie que toute personne qui possédait des Bitcoins au bloc 478558 (1er aout 2017, 14h16 heure de Paris) possède le même montant de Bitcoin Cash. Si vos Bitcoins étaient sur des bourses d'échanges, vous devez les contacter pour y avoir accès.
+            Chaque personne qui possédait des Bitcoins au moment où Bitcoin Cash a été créé possède des Bitcoins Cash. Cela signifie que chaque personne qui possédait des Bitcoins au bloc 478558 (1er aout 2017, 14h16 heure de Paris) possède le même montant de Bitcoin Cash. Si vos Bitcoins étaient sur des bourses d'échanges, vous devez les contacter pour y avoir accès.
           - |
-            Toutes les transactions après cette date sont dans des registres de transactions différents. Chaque Bitcoin acquis ne donne pas une part équivalente de Bitcoin Cash. Chaque Bitcoin Cash acquis ne donne pas une part équivalente de Bitcoin.
+            Toutes les transactions après la date de séparation des chaines sont enregistrées dans des registres différents. Chaque Bitcoin acquis ne donne pas une part équivalente de Bitcoin Cash. Chaque Bitcoin Cash acquis ne donne pas une part équivalente de Bitcoin.
       - question: "How is transaction replay being handled between the new and the old blockchain?"
         answer:
           - |
@@ -90,8 +90,8 @@ fr:
       - question: "Pourquoi la fourche était nécessaire pour créer Bitcoin Cash ?"
         answer:
           - |
-            Le code Bitcoin originel autorise un espace limite des données par blocs de 1MB, ou 3 transactions par seconde. Même si l'augmentation de la limite est simple techniquement, la communauté n'a pas réussi à obtenir un consensus, même après des années de débats.
-      - question: "Est-ce que la limite de 1MB par bloc posait problème pour Bitcoin?"
+            Le code Bitcoin originel autorise un espace limite des données par blocs de 1Mo, ou 3 transactions par seconde. Même si l'augmentation de la limite est simple techniquement, la communauté n'a pas réussi à obtenir un consensus, même après des années de débats.
+      - question: "Est-ce que la limite de 1Mo par bloc posait problème pour Bitcoin?"
         answer:
           - |
             Le prix du Bitcoin a augmenté, mais sa croissance et son utilité comme monnaie ont stagné. Beaucoup d'utilisateurs, commerçants, entreprises et même des investisseurs ont quitté Bitcoin pour des alternatives, résultant dans une perte de dominance de 95% à 40% à son plus bas.
@@ -104,7 +104,7 @@ fr:
       - question: "Pourquoi la taille des blocs Bitcoin n'a pas été augmenté si c'était aussi simple ?"
         answer:
           - |
-            Certains développeurs ne comprenait et n'acceptait pas la vision originelle de Satoshi Nakamoto d'une monnaie virtuelle pair-à-pair. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Au lieu de cela, ils ont préféré que Bitcoin deviennent une couche de règlement</a>.
+            Certains développeurs ne comprenaient et n'acceptait pas la vision originelle de Satoshi Nakamoto d'une monnaie virtuelle pair-à-pair. <a href="https://medium.com/@jgarzik/bitcoin-is-being-hot-wired-for-settlement-a5beb1df223a" target="_blank">Au lieu de cela, ils ont préféré que Bitcoin deviennent une couche de règlement</a>.
           - |
             Beaucoup de mineurs et d'utilisateurs croyaient en ces développeurs, alors que d'autres ont compris qu'ils étaient en train de mener la communauté sur une route différente que celle prévue.
           - |
@@ -114,7 +114,7 @@ fr:
           - |
             'Segregated Witness' ou 'SegWit' est un substitut inacceptable pour augmenter la taille des blocs pour plusieurs raisons.
           - |
-            Premièrement, même si utilisé par 100% des transactions, cela représenterait seulement une hausse de 1.7MB par bloc. Ainsi, ce serait augmentation de capacité au mieux dérisoire. Cela ne permettrait pas une croissance exponentielle lié à un usage mondialisé. Deuxièmement, l'implémentation de Segwit par un "soft fork" (par opposition aux hard forks que Bitcoin Cash favorise) l'implémentation implique des champ de signatures vierges, ce qui <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">diminue la sécurité des transactions Bitcoin.</a> Troisièmement, les futurs augmentation de capacité seront rendus plus difficile car SegWit en réalité augmente la taille individuelle des transactions et ne régle pas le problème du quadratic hashing pour les transactions non-SegWit. Ces inneficiences constituent des opportunités supplémentaires pour un éventuel attaquant - qui n'est pas obligé d'utiliser le format de transaction segwit.
+            Premièrement, même si utilisé par 100% des transactions, cela représenterait seulement une hausse de 1.7Mo par bloc. Ainsi, ce serait augmentation de capacité au mieux dérisoire. Cela ne permettrait pas une croissance exponentielle lié à un usage mondialisé. Deuxièmement, l'implémentation de Segwit par un "soft fork" (par opposition aux hard forks que Bitcoin Cash favorise) l'implémentation implique des champ de signatures vierges, ce qui <a href="https://bitcrust.org/blog-incentive-shift-segwit" target="_blank">diminue la sécurité des transactions Bitcoin.</a> Troisièmement, les futurs augmentation de capacité seront rendus plus difficile car SegWit en réalité augmente la taille individuelle des transactions et ne régle pas le problème du quadratic hashing pour les transactions non-SegWit. Ces inneficiences constituent des opportunités supplémentaires pour un éventuel attaquant - qui n'est pas obligé d'utiliser le format de transaction segwit.
           - |
             Pour ces raisons (et d'autres), il était nécessaire de forker Bitcoin Cash avant que Segwit ne soit activé. Et SegWit ne sera probablement jamais adopté sur Bitcoin Cash. 
       - question: "Quelle équipe de développement est en charge de Bitcoin Cash ?"
@@ -126,4 +126,4 @@ fr:
       - question: "Quelle est le code symbole pour Bitcoin Cash?"
         answer:
           - |
-            Bitcoin Cash est actuellement représenté par deux ticker selon le service ou le porte monnaie électronique utilisé. BCH ou BCC sont les plus utilisés, avec XBC qui est le symbole international conforme à ISO 4217.
+            Bitcoin Cash est actuellement représenté par deux ticker selon le service ou le porte-monnaie électronique utilisé. BCH ou BCC sont les plus utilisés, avec XBC qui est le symbole international conforme à ISO 4217.
