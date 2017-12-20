@@ -273,8 +273,8 @@ p.question {
 }
 
 .bcc-timeline-content .bcc-date {
-  padding: .8em 0;
-  opacity: .7;
+  opacity: .5;
+  padding: .8em 0.5em .8em 0;
 }
 
 .bcc-timeline-content::before {
@@ -320,6 +320,8 @@ p.question {
     top: 6px;
     font-size: 16px;
     font-size: 1rem;
+    padding-right: 0;
+    opacity: 0.7;
   }
 
   .bcc-timeline-block:nth-child(even) .bcc-timeline-content {
