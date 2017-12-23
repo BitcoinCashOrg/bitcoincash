@@ -234,16 +234,24 @@ p.question {
   margin-top: -12px;
 }
 
-.bcc-timeline-img.green {
+.bcc-timeline-img.release {
   background: #75ce66;
 }
 
-.bcc-timeline-img.red {
-  background: #c03b44;
+.bcc-timeline-img.exchange {
+  background: #c0413a;
 }
 
-.bcc-timeline-img.yellow {
+.bcc-timeline-img.mining {
   background: #f0ca45;
+}
+
+.bcc-timeline-img.rocket {
+    background: #a89df0;
+}
+
+.bcc-timeline-img.bullhorn {
+    background: #0053f0;
 }
 
 @media only screen and (min-width: 1170px) {
