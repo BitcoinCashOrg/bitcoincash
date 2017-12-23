@@ -280,12 +280,20 @@ p.question {
 .bcc-timeline-content::before {
   content: '';
   position: absolute;
-  top: 16px;
+  top: 0.75em;
+  margin-right: -0.4em;
   right: 100%;
   height: 0;
   width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid #f4f4f4;
+  box-sizing: border-box;
+
+  border: 0.2em solid black;
+  border-color: transparent transparent #fafafa #fafafa;
+
+  transform-origin: 0 0;
+  transform: rotate(45deg);
+
+  box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .bcc-timeline-block .bcc-timeline-content .bcc-read-more {
@@ -329,11 +337,22 @@ p.question {
   }
 
   .bcc-timeline-block:nth-child(even) .bcc-timeline-content::before {
-    top: 24px;
     left: auto;
     right: 100%;
-    border-color: transparent;
-    border-right-color: white;
+    margin-right: -0.5em;
+
+    border: 0.25em solid black;
+    border-color: transparent transparent #fafafa #fafafa;
+  }
+
+  .bcc-timeline-block:nth-child(odd) .bcc-timeline-content::before {
+    right: auto;
+    left: 100%;
+    margin-right: -0.5em;
+
+    border: 0.25em solid black;
+    border-color: #fafafa #fafafa  transparent transparent;
+    box-shadow: 3px -3px 6px rgba(0, 0, 0, 0.16);
   }
 
   .bcc-timeline-block:nth-child(even) .bcc-timeline-content .bcc-date {
