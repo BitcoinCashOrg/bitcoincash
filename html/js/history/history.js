@@ -6,17 +6,17 @@ $(function(){
 });
 
 function addItemToTimeLine(item) {
-    $('#bcc-timeline').append('<div class="bcc-timeline-block">' +
-        '            <div class="bcc-timeline-img ' + item.type + '">' +
+    $('#bch-timeline').append('<div class="bch-timeline-block">' +
+        '            <div class="bch-timeline-img ' + item.type + '">' +
         '                <img src="img/history/' + item.type + '-icon.svg" alt="' + item.type + '">' +
         '            </div>' +
-        '            <div class="bcc-timeline-content">' +
-        '                <span class="bcc-read-more">' +
-        '                    <a target="_blank" href="' + item.proof + '" class="bcc-read-more">' +
+        '            <div class="bch-timeline-content">' +
+        '                <span class="bch-read-more">' +
+        '                    <a target="_blank" href="' + item.proof + '" class="bch-read-more">' +
         '                        <img src="img/history/external-link.svg">' +
         '                    </a>' +
         '                </span>' +
-        '                <span class="bcc-date">' + item.date + '</span>' +
+        '                <span class="bch-date">' + item.date + '</span>' +
         '                <span>' + item.text + '</span>' +
         '            </div>' +
         '        </div>')
