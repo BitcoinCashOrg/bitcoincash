@@ -32,6 +32,11 @@ namespace :translations do
       File.write(File.join('.', 'html', "index.html"), renderer.result()) if locale == :en
       FileUtils.mkdir_p(File.join('.', 'html', locale.to_s.downcase))
       File.write(File.join('.', 'html', locale.to_s.downcase, "index.html"), renderer.result())
+
+      File.write(File.join('.', 'html', "history.#{locale}.html"), renderer.result())
+      File.write(File.join('.', 'html', "history.html"), renderer.result()) if locale == :en
+      FileUtils.mkdir_p(File.join('.', 'html', locale.to_s.downcase))
+      File.write(File.join('.', 'html', locale.to_s.downcase, "history.html"), renderer.result())
     end
   end
 end
