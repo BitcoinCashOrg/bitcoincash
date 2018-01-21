@@ -235,23 +235,23 @@ p.question {
 }
 
 .bch-timeline-img.release {
-  background: #75ce66;
+  background: #4CAF50;
 }
 
 .bch-timeline-img.exchange {
-  background: #c0413a;
+  background: #FF5722;
 }
 
 .bch-timeline-img.mining {
-  background: #f0ca45;
+  background: #009688;
 }
 
 .bch-timeline-img.rocket {
-    background: #a89df0;
+    background: #9C27B0;
 }
 
 .bch-timeline-img.bullhorn {
-    background: #0053f0;
+    background: #3F51B5;
 }
 
 @media only screen and (min-width: 1170px) {
