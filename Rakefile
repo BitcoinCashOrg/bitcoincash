@@ -25,6 +25,8 @@ namespace :translations do
     File.write(File.join('.', 'nginx.conf'), nginx_renderer.result())
     template = File.read('index.html.erb')
     renderer = ERB.new(template)
+    historyTemplate = File.read('history.html.erb')
+    historyRenderer = ERB.new(historyTemplate)
     I18n.available_locales.sort.each do |locale|
       puts "Building #{locale}"
       I18n.locale = locale
@@ -34,10 +36,10 @@ namespace :translations do
       File.write(File.join('.', 'html', locale.to_s.downcase, "index.html"), renderer.result())
 
       FileUtils.mkdir_p(File.join('.', 'html', 'history'))
-      File.write(File.join('.', 'html', 'history', "index.#{locale}.html"), renderer.result())
-      File.write(File.join('.', 'html', 'history', "index.html"), renderer.result()) if locale == :en
+      File.write(File.join('.', 'html', 'history', "index.#{locale}.html"), historyRenderer.result())
+      File.write(File.join('.', 'html', 'history', "index.html"), historyRenderer.result()) if locale == :en
       FileUtils.mkdir_p(File.join('.', 'html', locale.to_s.downcase, 'history'))
-      File.write(File.join('.', 'html', locale.to_s.downcase, 'history', "index.html"), renderer.result())
+      File.write(File.join('.', 'html', locale.to_s.downcase, 'history', "index.html"), historyRenderer.result())
     end
   end
 end
