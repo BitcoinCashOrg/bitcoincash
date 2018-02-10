@@ -4767,7 +4767,7 @@ section.parallax .row .background-image-holder {
   }
   .bar-2 .menu-horizontal > li:not(:first-child),
   .bar-1 .menu-horizontal > li:not(:first-child) {
-    margin-left: 0.1em;
+    margin-left: 0em;
   }
   .bar-2 .bar__module,
   .bar-1 .bar__module {
@@ -4788,7 +4788,7 @@ section.parallax .row .background-image-holder {
 }
 @media all and (min-width: 1024px) {
   .bar-1 .bar__module + .bar__module {
-    margin-left: 0.1em;
+    margin-left: 0em;
   }
 }
 @media all and (min-width: 991px) {
