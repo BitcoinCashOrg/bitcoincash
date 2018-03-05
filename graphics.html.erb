@@ -12,13 +12,20 @@
         <meta property="og:title" content="<%= I18n.t(:'meta.graphics.og.title').strip %>">
         <meta property="og:description" content="<%= I18n.t(:'meta.graphics.og.description').strip %>">
         <meta property="og:image" content="https://www.bitcoincash.org/img/bitcoincash.png">
-        <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all" /> -->
         <link href="/css/lang.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/custom.css?v=1" rel="stylesheet" type="text/css" media="all" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i&subset=latin,latin-ext" rel="stylesheet">
+
+        <link href="/css/bootstrap-graphics.css" rel="stylesheet" type="text/css" media="all" />
+        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="/css/icomoon.css">
+        <link rel="stylesheet" href="/css/graphics.css">
+
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+        <script src="/js/modernizr-2.6.2.min.js"></script>
+
         <!-- Global Site Tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17656782-2"></script>
         <script>
@@ -31,129 +38,394 @@ gtag('config', 'UA-17656782-2');
     </head>
     <body class=" ">
         <a id="start"></a>
-        <div class="nav-container">
-            <div class="bar bar--sm visible-xs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="/">
-                                <img class="logo logo-dark" alt="<%= I18n.t(:'misc.logo').strip %>" src="/img/logo-dark.png" />
-                            </a>
-                        </div>
-                        <div class="col-xs-9 col-sm-10 text-right">
-                            <a href="#" class="hamburger-toggle" data-toggle-class="#menu1;hidden-xs">
-                                <i class="icon icon--sm stack-interface stack-menu"></i>
-                            </a>
+       
+
+
+        <header role="banner" id="fh5co-header">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                    <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                    <a class="navbar-brand" href="../"><img src="img/6-bitcoin-cash-logo-horizontal-small.png" alt="Bitcoin Cash"></a> 
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
+                        <li><a href="#" data-nav-section="logos"><span>Logos</span></a></li>
+                        <li><a href="#" data-nav-section="merchant"><span>Merchant</span></a></li>
+                        <li><a href="#" data-nav-section="donation"><span>Donations</span></a></li> 
+                        <li><a href="#" data-nav-section="identity"><span>Identity</span></a></li> 
+                    </ul>
+                </div>
+            </nav>
+            </div>
+        </header>
+
+        <section id="fh5co-home" data-section="home" style="background-image: url(img/full_image_2.jpg);" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="text-wrap">
+                    <div class="text-inner">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <h1 class="to-animate">Promotional Graphics</h1>
+                                <h2 class="to-animate">These Bitcoin Cash logos and brand assets can be used for display in online services, retail establishments, press or other promotional purposes.</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs" style="min-height: 90px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-3 hidden-xs">
-                            <div class="bar__module">
-                                <a href="/">
-                                    <img class="logo logo-dark" alt="<%= I18n.t(:'misc.logo').strip %>" src="/img/logo-dark.png" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-9 col-sm-12 text-right text-left-xs text-left-sm">
-                            <div class="bar__module">
-                                <ul class="menu-horizontal text-left">
-                                    <li>
-                                        <a href="/#about" class="inner-link">
-                                            <%= I18n.t(:'sections.about').strip %>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/#features" class="inner-link">
-                                            <%= I18n.t(:'sections.features').strip %>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/#nodes" class="inner-link">
-                                            <%= I18n.t(:'sections.nodes').strip %>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="/#wallets" class="inner-link">
-                                            <%= I18n.t(:'sections.wallets').strip %>
-                                        </a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <span class="dropdown__trigger"><%= I18n.t(:'sections.community').strip %></span>
-                                        <div class="dropdown__container">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="dropdown__content col-md-<%= I18n.t('misc.dropdown_md_width') %> col-sm-<%= I18n.t('misc.dropdown_sm_width') %>">
-                                                        <ul class="menu-vertical">
-                                                            <li>
-                                                                <a href="/#services" class="inner-link">
-                                                                    <%= I18n.t(:'sections.services').strip %>
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="/#projects" class="inner-link">
-                                                                    <%= I18n.t(:'sections.projects').strip %>
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="/#exchanges" class="inner-link">
-                                                                    <%= I18n.t(:'sections.exchanges').strip %>
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#" class="inner-link">
-                                                                    <%= I18n.t(:'sections.graphics').strip %>
-                                                                </a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="/#faq" class="inner-link">
-                                            <%= I18n.t(:'sections.faq').strip %>
-                                        </a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <span class="dropdown__trigger"><%= I18n.t(:language).strip %></span>
-                                        <div class="dropdown__container">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="dropdown__content lang-menu">
-                                                        <%-
-                                                            I18n.available_locales.map { |locale|
-                                                              [locale, I18n.t(:language, :locale => locale).strip]
-                                                            }
-                                                            .sort_by { |pair| pair[1] }
-                                                            .each_slice(7) do |group|
-                                                        -%>
-                                                        <ul class="menu-vertical">
-                                                            <%- group.each do |pair| -%>
-                                                            <li>
-                                                                <a href="/<%= pair[0].to_s.downcase %>/graphics/">
-                                                                <%= pair[1] %>
-                                                                </a>
-                                                            </li>
-                                                            <%- end -%>
-                                                        </ul>
-                                                        <%- end -%>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+            <div class="slant"></div>
+        </section>
+
+        <section id="fh5co-logos" data-section="logos">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Logos</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                    <h3>Download Bitcoin Cash logos in PNG and SVG</h3>
+                    <h4><a href="img/Bitcoin-Cash-Logos.zip" target="_blank"><i class="icon-download"></i> Download All</a></h4>
+                  </div>
                 </div>
-            </nav>
-        </div>
+              </div>
+            </div>
+            <div class="row">
+            
+              <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>BCH Logo Primary</h6>
+                  <img src="img/3-bitcoin-cash-logo-ot-medium.png" alt="Bitcoin Cash Logo" class="">
+                  
+                  
+                    <a href="img/3-bitcoin-cash-logo-ot-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/3-bitcoin-cash-logo-ot-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/3-bitcoin-cash-logo-ot-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/3-bitcoin-cash-logo-ot-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/3-bitcoin-cash-logo-ot.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>BCH Logo White Text</h6>
+                  <img src="img/2-bitcoin-cash-logo-wt-medium.png" alt="Bitcoin Cash Logo" class=" dark">
+                  
+                  
+                    <a href="img/2-bitcoin-cash-logo-wt-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/2-bitcoin-cash-logo-wt-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/2-bitcoin-cash-logo-wt-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/2-bitcoin-cash-logo-wt-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/2-bitcoin-cash-logo-wt.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>BCH Logo Mark</h6>
+                  <img src="img/4-bitcoin-cash-logo-flag-medium.png" alt="Bitcoin Cash Logo" class="flag">
+                  
+                  
+                    <a href="img/4-bitcoin-cash-logo-flag-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/4-bitcoin-cash-logo-flag-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/4-bitcoin-cash-logo-flag-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/4-bitcoin-cash-logo-flag-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/4-bitcoin-cash-logo-flag.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>BCH Logo Horizontal Primary</h6>
+                  <img src="img/6-bitcoin-cash-logo-horizontal-medium.png" alt="Bitcoin Cash Logo" class=" horiz">
+                  
+                  
+                    <a href="img/6-bitcoin-cash-logo-horizontal-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/6-bitcoin-cash-logo-horizontal-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/6-bitcoin-cash-logo-horizontal-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/6-bitcoin-cash-logo-horizontal-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/6-bitcoin-cash-logo-horizontal.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>BCH Logo Horizontal White</h6>
+                  <img src="img/5-bitcoin-cash-logo-horizontal-wt-medium.png" alt="Bitcoin Cash Logo" class=" dark horiz">
+                  
+                  
+                    <a href="img/5-bitcoin-cash-logo-horizontal-wt-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/5-bitcoin-cash-logo-horizontal-wt-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/5-bitcoin-cash-logo-horizontal-wt-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/5-bitcoin-cash-logo-horizontal-wt-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/5-bitcoin-cash-logo-horizontal-wt.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-4">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>BCH Logo For Wallets / Exchanges</h6>
+                  <img src="img/12-bitcoin-cash-square-crop-small.png" alt="Bitcoin Cash Logo" class=" square-crop">
+                  
+                  
+                    <a href="img/12-bitcoin-cash-square-crop-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/12-bitcoin-cash-square-crop-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/12-bitcoin-cash-square-crop-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/12-bitcoin-cash-square-crop-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/12-bitcoin-cash-square-crop.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </section>
+
+
+        <section id="fh5co-merchant" data-section="merchant">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Merchant Buttons</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                    <h3>Show your customers that you accept Bitcoin Cash.</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+            
+              <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>Bitcoin Cash Accepted Here Primary</h6>
+                  <img src="img/7-bitcoin-cash-accepted-here-medium.png" alt="Bitcoin Cash Accepted Here" class="">
+                  
+                  
+                    <a href="img/7-bitcoin-cash-accepted-here-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/7-bitcoin-cash-accepted-here-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/7-bitcoin-cash-accepted-here-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/7-bitcoin-cash-accepted-here-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/7-bitcoin-cash-accepted-here.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>Bitcoin Cash Accepted Here Orange</h6>
+                  <img src="img/8-bitcoin-cash-accepted-here-orange-medium.png" alt="Bitcoin Cash Accepted Here" class="">
+                  
+                  
+                    <a href="img/8-bitcoin-cash-accepted-here-orange-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/8-bitcoin-cash-accepted-here-orange-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/8-bitcoin-cash-accepted-here-orange-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/8-bitcoin-cash-accepted-here-orange-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/8-bitcoin-cash-accepted-here-orange.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </section>
+
+        <section id="fh5co-donation" data-section="donation">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 section-heading text-center">
+                <h2 class="to-animate">Donation Buttons</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                    <h3>Promote the acceptance of Bitcoin Cash as a donation method.</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+            
+              <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>Bitcoin Cash Donations Accepted Primary</h6>
+                  <img src="img/10-bitcoin-cash-donations-medium.png" alt="Bitcoin Cash Donations Accepted" class="">
+                  
+                  
+                    <a href="img/10-bitcoin-cash-donations-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/10-bitcoin-cash-donations-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/10-bitcoin-cash-donations-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/10-bitcoin-cash-donations-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/10-bitcoin-cash-donations.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+              <div class="col-md-6">
+                <div class="fh5co-person text-center to-animate">
+                  <h6>Bitcoin Cash Donations Accepted Orange</h6>
+                  <img src="img/11-bitcoin-cash-donations-orange-medium.png" alt="Bitcoin Cash Donations Accepted" class="">
+                  
+                  
+                    <a href="img/11-bitcoin-cash-donations-orange-small.png" class="btn btn-secondary btn-block">Small (PNG)</a>
+                  
+                    <a href="img/11-bitcoin-cash-donations-orange-medium.png" class="btn btn-secondary btn-block">Medium (PNG)</a>
+                  
+                    <a href="img/11-bitcoin-cash-donations-orange-large.png" class="btn btn-secondary btn-block">Large (PNG)</a>
+                  
+                    <a href="img/11-bitcoin-cash-donations-orange-full.png" class="btn btn-secondary btn-block">Full (PNG)</a>
+                  
+                    <a href="img/11-bitcoin-cash-donations-orange.svg" class="btn btn-secondary btn-block">Vector (SVG)</a>
+                  
+                  
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </section>
+
+        <section id="fh5co-identity" data-section="identity">
+          <div class="container">
+            
+            <div class="row">
+              <div class="col-md-6 section-heading text-center">
+                <h2 class="to-animate">Visual Identity</h2>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 subtext to-animate">
+                    <h3>Bitcoin Cash fonts, colors, and more.</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6 to-animate">
+                
+                <div class="font">
+
+                <h3>Ubuntu Bold</h3>
+                
+                <h4 class="font-color-sample" style="font-weight:bold">ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!%</h4>
+                <a href="https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu:700" class="btn btn-primary" target="_blank">Download Font</a>
+
+                </div>
+
+              
+                <div class="font">
+
+                <h3>Ubuntu Bold Italic</h3>
+                
+                <h4 class="font-color-sample" style="font-style:italic">ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890?!%</h4>
+                <a href="https://fonts.google.com/specimen/Ubuntu?selection.family=Ubuntu:700i" class="btn btn-primary" target="_blank">Download Font</a>
+
+                </div>
+
+              
+              </div>
+              
+              <div class="col-md-6 to-animate">
+              
+                <div class="color row">
+               
+                <div class="col-xs-4 col-sm-3"><span class="box-color" style="background:#F59332"></div>
+
+                <div class="col-xs-8 col-sm-9">
+                <h3>Bitcoin Cash Orange</h3>
+                Hex: #F59332<br>
+                RGB: 247 / 148 / 29<br>
+                CMYK: 0 / 50 / 100 / 0<br>
+                Pantone: 1375C
+
+                </div>
+                </div>
+              
+                <div class="color row">
+               
+                <div class="col-xs-4 col-sm-3"><span class="box-color" style="background:#4D4D4D"></div>
+
+                <div class="col-xs-8 col-sm-9">
+                <h3>Bitcoin Cash Grey</h3>
+                Hex: #4D4D4D<br>
+                RGB: 77 / 77 / 77<br>
+                CMYK: 65 / 58 / 57 / 37<br>
+                Pantone: 11C
+
+                </div>
+                </div>
+              
+                <div class="color row">
+               
+                <div class="col-xs-4 col-sm-3"><span class="box-color" style="background:#FFFFFF"></div>
+
+                <div class="col-xs-8 col-sm-9">
+                <h3>Bitcoin Cash White</h3>
+                Hex: #FFFFFF<br>
+                RGB: 255 / 255 / 255<br>
+                CMYK: 0 / 0 / 0 / 0<br>
+                Pantone: paper
+
+                </div>
+                </div>
+              
+              </div>
+
+            </div>
+            
+          </div>
+        </section>
+
+
+        
+
         <div class="main-container">
             <footer class="space--xs footer-1">
                 <div class="container">
@@ -184,14 +456,27 @@ gtag('config', 'UA-17656782-2');
                 </div>
             </footer>
         </div>
+
         <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
             <i class="stack-interface stack-up-open-big"></i>
         </a>
-        <script src="/js/jquery-3.1.1.min.js"></script>
+        <script src="/js/jquery.min.js"></script>
         <script src="/js/smooth-scroll.min.js"></script>
         <script src="/js/scripts.js"></script>
         <script src="/js/fontawesome.js"></script>
         <script src="/js/packs/solid.js"></script>
         <script src="/js/ticker.js?v=2"></script>
+
+        <script src="/js/jquery.easing.1.3.js"></script>
+        <script src="/js/jquery.stellar.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/jquery.waypoints.min.js"></script>
+
+        
+
+
+        
+        <script src="/js/main.js"></script>
+
     </body>
 </html>
