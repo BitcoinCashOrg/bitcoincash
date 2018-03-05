@@ -1944,9 +1944,15 @@ pre code {
   clear: both;
 }
 @media (min-width: 768px) {
+<<<<<<< HEAD
   /*.container {
     width: 750px;
   }*/
+=======
+  .container {
+    width: 750px;
+  }
+>>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 }
 @media (min-width: 992px) {
   .container {

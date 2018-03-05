@@ -576,6 +576,7 @@
 
 
     // Animations
+<<<<<<< HEAD
     
     // homeAnimate();
     // introAnimate();
@@ -589,6 +590,20 @@
     // identityAnimate();
     // countersAnimate();
     // contactAnimate();
+=======
+    homeAnimate();
+    introAnimate();
+    workAnimate();
+    testimonialAnimate();
+    servicesAnimate();
+    aboutAnimate();
+    logosAnimate();
+    merchantAnimate();
+    donationAnimate();
+    identityAnimate();
+    countersAnimate();
+    contactAnimate();
+>>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
     
 
   });
