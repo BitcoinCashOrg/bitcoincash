@@ -1,4 +1,9 @@
 /*! Place your custom styles here */
+
+.bar .logo {
+  max-height: 1.3em;
+}
+
 .benefits .row .col-sm-4 {
   margin-bottom: 40px;
 }
@@ -153,8 +158,8 @@ p.question {
 
 #bch-timeline {
   position: relative;
-  padding: 2em 0;
-  margin-top: 2em;
+  padding: 0 0 2em;
+  margin-top: 0em;
   margin-bottom: 2em;
 }
 
@@ -170,7 +175,8 @@ p.question {
 
 @media only screen and (min-width: 1170px) {
   #bch-timeline {
-    margin-top: 3em;
+    margin-top: 0em;
+    padding-top: 0;
     margin-bottom: 3em;
   }
 

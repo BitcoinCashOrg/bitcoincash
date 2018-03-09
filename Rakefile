@@ -24,7 +24,7 @@ namespace :translations do
     nginx_renderer = ERB.new(nginx_template)
     File.write(File.join('.', 'nginx.conf'), nginx_renderer.result())
     template = File.read('index.html.erb')
-    renderer = ERB.new(template)
+    renderer = ERB.new(template, nil, '-')
     historyTemplate = File.read('history.html.erb')
     historyRenderer = ERB.new(historyTemplate)
     I18n.available_locales.sort.each do |locale|
