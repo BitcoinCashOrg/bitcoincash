@@ -204,7 +204,14 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   margin-top: 40px;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width:865px) {
+  .homepage.navbar-right {
+    float: left !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
   #fh5co-header {
     margin-top: 0;
     background: #fff;
@@ -402,8 +409,22 @@ h1, h2, h3, h4, h5, h6 {
   background-image: repeating-linear-gradient(to bottom right, #fafafa 0%, #ddd 100%);
   background-image: -ms-repeating-linear-gradient(top left, #fafafa 0%, #ddd 100%);
 }
+
+#fh5co-home .lead {
+  margin-top:10px;
+  color:#4d4d4d;
+}
+
+#fh5co-home .hero-logo {
+  margin-top:25px;
+}
+
+#fh5co-home #ticker, #fh5co-home #ticker_value {
+  color:#4D4D4D;
+  margin-top:50px;
+}
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 900px;
+  height: 700px;
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -1281,7 +1302,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
   border-bottom: none !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .fh5co-nav-toggle {
     display: block;
   }
@@ -1526,6 +1547,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top i {
   color: #252525;
+  display:block;
+  margin-top:7px;
 }
 .back-to-top:not(.active) {
   opacity: 0;
@@ -1572,6 +1595,24 @@ ol.lead li:not(:last-child) {
   max-height: 2.78571429em;
 }
 @media all and (min-width: 768px) {
+
+  .navbar-nav > li > .dropdown__trigger {
+      padding-top: 17.5px;
+      padding-bottom: 17.5px;
+      line-height:20px;
+      font-size:19px;
+      display:block;
+      font-family: "Ubuntu", Arial, sans-serif;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar-nav > li > .dropdown__trigger:hover {
+        
+        color: #222;
+      }
+
+    
+
   .list-inline--images li:not(:last-child) {
     margin-right: 5.57142857em;
   }

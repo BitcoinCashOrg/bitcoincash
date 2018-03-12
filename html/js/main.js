@@ -552,8 +552,279 @@
 	};
 
 
+
+	var mainAnimate = function() {
+	  var main = $('#home-section');
+	  if ( main.length > 0 ) { 
+
+	    main.waypoint( function( direction ) {
+	                  
+	      if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+	        setTimeout(function() {
+	          main.find('.to-animate').each(function( k ) {
+	            var el = $(this);
+	            
+	            setTimeout ( function () {
+	              el.addClass('fadeInUp animated');
+	            },  k * 200, 'easeInOutExpo' );
+	            
+	          });
+	        }, 200);
+
+	        $(this.element).addClass('animated');
+	          
+	      }
+	    } , { offset: '94%' } );
+
+	  }
+	};
+
+
+	var aboutAnimate = function() {
+	    var about = $('#about-section');
+	    if ( about.length > 0 ) { 
+
+	      about.waypoint( function( direction ) {
+	                    
+	        if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+	          setTimeout(function() {
+	            about.find('.to-animate').each(function( k ) {
+	              var el = $(this);
+	              
+	              setTimeout ( function () {
+	                el.addClass('fadeInUp animated');
+	              },  k * 200, 'easeInOutExpo' );
+	              
+	            });
+	          }, 200);
+
+	          $(this.element).addClass('animated');
+	            
+	        }
+	      } , { offset: '94%' } );
+
+	    }
+	  };
+
+	  var about2Animate = function() {
+	        var about2 = $('#about2-section');
+	        if ( about2.length > 0 ) { 
+
+	          about2.waypoint( function( direction ) {
+	                        
+	            if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+	              setTimeout(function() {
+	                about2.find('.to-animate').each(function( k ) {
+	                  var el = $(this);
+	                  
+	                  setTimeout ( function () {
+	                    el.addClass('fadeInUp animated');
+	                  },  k * 200, 'easeInOutExpo' );
+	                  
+	                });
+	              }, 200);
+
+	              $(this.element).addClass('animated');
+	                
+	            }
+	          } , { offset: '94%' } );
+
+	        }
+	      };
+
+
+	  var featuresAnimate = function() {
+	      var features = $('#features-section');
+	      if ( features.length > 0 ) { 
+
+	        features.waypoint( function( direction ) {
+	                      
+	          if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+	            setTimeout(function() {
+	              features.find('.to-animate').each(function( k ) {
+	                var el = $(this);
+	                
+	                setTimeout ( function () {
+	                  el.addClass('fadeInUp animated');
+	                },  k * 200, 'easeInOutExpo' );
+	                
+	              });
+	            }, 200);
+
+	            $(this.element).addClass('animated');
+	              
+	          }
+	        } , { offset: '94%' } );
+
+	      }
+	    };
 	
-	
+	var nodesAnimate = function() {
+	    var nodes = $('#nodes-section');
+	    if ( nodes.length > 0 ) { 
+
+	      nodes.waypoint( function( direction ) {
+	                    
+	        if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+	          setTimeout(function() {
+	            nodes.find('.to-animate').each(function( k ) {
+	              var el = $(this);
+	              
+	              setTimeout ( function () {
+	                el.addClass('fadeInUp animated');
+	              },  k * 200, 'easeInOutExpo' );
+	              
+	            });
+	          }, 200);
+
+	          $(this.element).addClass('animated');
+	            
+	        }
+	      } , { offset: '94%' } );
+
+	    }
+	  };
+
+	  var walletsAnimate = function() {
+	      var wallets = $('#wallets-section');
+	      if ( wallets.length > 0 ) { 
+
+	        wallets.waypoint( function( direction ) {
+	                      
+	          if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+	            setTimeout(function() {
+	              wallets.find('.to-animate').each(function( k ) {
+	                var el = $(this);
+	                
+	                setTimeout ( function () {
+	                  el.addClass('fadeInUp animated');
+	                },  k * 200, 'easeInOutExpo' );
+	                
+	              });
+	            }, 200);
+
+	            $(this.element).addClass('animated');
+	              
+	          }
+	        } , { offset: '94%' } );
+
+	      }
+	    };
+
+	    var services2Animate = function() {
+	        var services2 = $('#services-section');
+	        if ( services2.length > 0 ) { 
+
+	          services2.waypoint( function( direction ) {
+	                        
+	            if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+	              setTimeout(function() {
+	                services2.find('.to-animate').each(function( k ) {
+	                  var el = $(this);
+	                  
+	                  setTimeout ( function () {
+	                    el.addClass('fadeInUp animated');
+	                  },  k * 200, 'easeInOutExpo' );
+	                  
+	                });
+	              }, 200);
+
+	              $(this.element).addClass('animated');
+	                
+	            }
+	          } , { offset: '94%' } );
+
+	        }
+	      };
+
+
+	     var projectsAnimate = function() {
+	         var projects = $('#projects-section');
+	         if ( projects.length > 0 ) { 
+
+	           projects.waypoint( function( direction ) {
+	                         
+	             if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+	               setTimeout(function() {
+	                 projects.find('.to-animate').each(function( k ) {
+	                   var el = $(this);
+	                   
+	                   setTimeout ( function () {
+	                     el.addClass('fadeInUp animated');
+	                   },  k * 200, 'easeInOutExpo' );
+	                   
+	                 });
+	               }, 200);
+
+	               $(this.element).addClass('animated');
+	                 
+	             }
+	           } , { offset: '94%' } );
+
+	         }
+	       };
+
+       var exchangesAnimate = function() {
+           var exchanges = $('#exchanges-section');
+           if ( exchanges.length > 0 ) { 
+
+             exchanges.waypoint( function( direction ) {
+                           
+               if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+                 setTimeout(function() {
+                   exchanges.find('.to-animate').each(function( k ) {
+                     var el = $(this);
+                     
+                     setTimeout ( function () {
+                       el.addClass('fadeInUp animated');
+                     },  k * 200, 'easeInOutExpo' );
+                     
+                   });
+                 }, 200);
+
+                 $(this.element).addClass('animated');
+                   
+               }
+             } , { offset: '94%' } );
+
+           }
+         };
+
+         var faqAnimate = function() {
+             var faq = $('#faq-section');
+             if ( faq.length > 0 ) { 
+
+               faq.waypoint( function( direction ) {
+                             
+                 if( direction === 'down' && !$(this.element).hasClass('animated') ) {
+
+                   setTimeout(function() {
+                     faq.find('.to-animate').each(function( k ) {
+                       var el = $(this);
+                       
+                       setTimeout ( function () {
+                         el.addClass('fadeInUp animated');
+                       },  k * 200, 'easeInOutExpo' );
+                       
+                     });
+                   }, 200);
+
+                   $(this.element).addClass('animated');
+                     
+                 }
+               } , { offset: '94%' } );
+
+             }
+           };
 
 
 	
@@ -575,7 +846,7 @@
 		goToTop();
 
 
-		// Animations
+		// Animations from graphics
 		homeAnimate();
 		introAnimate();
 		workAnimate();
@@ -588,6 +859,20 @@
 		identityAnimate();
 		countersAnimate();
 		contactAnimate();
+
+		//index.html
+		// mainAnimate(); //this will animate all to-animate items all in at once
+		aboutAnimate();
+		about2Animate();
+		featuresAnimate();
+		nodesAnimate();
+		walletsAnimate();
+		services2Animate();
+		projectsAnimate();
+		exchangesAnimate();
+		faqAnimate();
+
+
 		
 
 	});
