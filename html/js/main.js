@@ -68,11 +68,7 @@
 
 				if ( $('[data-section="' + section + '"]').length ) {
 			    	$('html, body').animate({
-<<<<<<< HEAD
-			        	scrollTop: $('[data-section="' + section + '"]').offset().top-50
-=======
 			        	scrollTop: $('[data-section="' + section + '"]').offset().top
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 			    	}, 500);
 			   }
 
@@ -169,11 +165,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -202,11 +194,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInRight animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 1000);
@@ -234,11 +222,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -270,11 +254,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -285,11 +265,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInDown animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, sec);
@@ -320,11 +296,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -335,11 +307,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('bounceIn animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, sec);
@@ -369,11 +337,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -402,11 +366,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -435,11 +395,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -469,11 +425,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -503,11 +455,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -539,11 +487,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -562,11 +506,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('bounceIn animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, sec);
@@ -598,11 +538,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-<<<<<<< HEAD
-							},  k * 300, 'easeInOutExpo' );
-=======
 							},  k * 200, 'easeInOutExpo' );
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 							
 						});
 					}, 200);
@@ -616,7 +552,6 @@
 	};
 
 
-<<<<<<< HEAD
 
 	var mainAnimate = function() {
 	  var main = $('#home-section');
@@ -632,7 +567,7 @@
 	            
 	            setTimeout ( function () {
 	              el.addClass('fadeInUp animated');
-	            },  k * 300, 'easeInOutExpo' );
+	            },  k * 200, 'easeInOutExpo' );
 	            
 	          });
 	        }, 200);
@@ -660,7 +595,7 @@
 	              
 	              setTimeout ( function () {
 	                el.addClass('fadeInUp animated');
-	              },  k * 300, 'easeInOutExpo' );
+	              },  k * 200, 'easeInOutExpo' );
 	              
 	            });
 	          }, 200);
@@ -687,7 +622,7 @@
 	                  
 	                  setTimeout ( function () {
 	                    el.addClass('fadeInUp animated');
-	                  },  k * 300, 'easeInOutExpo' );
+	                  },  k * 200, 'easeInOutExpo' );
 	                  
 	                });
 	              }, 200);
@@ -715,7 +650,7 @@
 	                
 	                setTimeout ( function () {
 	                  el.addClass('fadeInUp animated');
-	                },  k * 300, 'easeInOutExpo' );
+	                },  k * 200, 'easeInOutExpo' );
 	                
 	              });
 	            }, 200);
@@ -742,7 +677,7 @@
 	              
 	              setTimeout ( function () {
 	                el.addClass('fadeInUp animated');
-	              },  k * 300, 'easeInOutExpo' );
+	              },  k * 200, 'easeInOutExpo' );
 	              
 	            });
 	          }, 200);
@@ -769,7 +704,7 @@
 	                
 	                setTimeout ( function () {
 	                  el.addClass('fadeInUp animated');
-	                },  k * 300, 'easeInOutExpo' );
+	                },  k * 200, 'easeInOutExpo' );
 	                
 	              });
 	            }, 200);
@@ -796,7 +731,7 @@
 	                  
 	                  setTimeout ( function () {
 	                    el.addClass('fadeInUp animated');
-	                  },  k * 300, 'easeInOutExpo' );
+	                  },  k * 200, 'easeInOutExpo' );
 	                  
 	                });
 	              }, 200);
@@ -824,7 +759,7 @@
 	                   
 	                   setTimeout ( function () {
 	                     el.addClass('fadeInUp animated');
-	                   },  k * 300, 'easeInOutExpo' );
+	                   },  k * 200, 'easeInOutExpo' );
 	                   
 	                 });
 	               }, 200);
@@ -851,7 +786,7 @@
                      
                      setTimeout ( function () {
                        el.addClass('fadeInUp animated');
-                     },  k * 300, 'easeInOutExpo' );
+                     },  k * 200, 'easeInOutExpo' );
                      
                    });
                  }, 200);
@@ -878,7 +813,7 @@
                        
                        setTimeout ( function () {
                          el.addClass('fadeInUp animated');
-                       },  k * 300, 'easeInOutExpo' );
+                       },  k * 200, 'easeInOutExpo' );
                        
                      });
                    }, 200);
@@ -890,10 +825,6 @@
 
              }
            };
-=======
-	
-	
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 
 
 	
@@ -915,11 +846,7 @@
 		goToTop();
 
 
-<<<<<<< HEAD
 		// Animations from graphics
-=======
-		// Animations
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 		homeAnimate();
 		introAnimate();
 		workAnimate();
@@ -932,7 +859,6 @@
 		identityAnimate();
 		countersAnimate();
 		contactAnimate();
-<<<<<<< HEAD
 
 		//index.html
 		// mainAnimate(); //this will animate all to-animate items all in at once
@@ -947,8 +873,6 @@
 		faqAnimate();
 
 
-=======
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 		
 
 	});

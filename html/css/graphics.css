@@ -204,19 +204,14 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   margin-top: 40px;
 }
-<<<<<<< HEAD
 
 @media screen and (max-width:865px) {
   .homepage.navbar-right {
     float: left !important;
-    padding-bottom:0.5em;
   }
 }
 
 @media screen and (max-width: 767px) {
-=======
-@media screen and (max-width: 768px) {
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
   #fh5co-header {
     margin-top: 0;
     background: #fff;
@@ -228,16 +223,11 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header .navbar-brand {
     color: #EE8B2B !important;
   }
-<<<<<<< HEAD
-  #fh5co-home.home, #fh5co-home.home .text-wrap {
-    height: auto !important;
-=======
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
   }
   #fh5co-header #navbar li a:hover {
     color: #EE8B2B !important;
@@ -265,11 +255,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.5);
   position: relative;
   font-size: 19px;
-<<<<<<< HEAD
-  font-weight: 400;
-=======
   font-weight: 300;
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 }
 #fh5co-header #navbar li a span {
   position: relative;
@@ -394,13 +380,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0s;
 }
 
-<<<<<<< HEAD
-.main-container #fh5co-home {
-  background:blue;
-}
-
-=======
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 #fh5co-home {
   background-color: transparent;
   background-size: cover;
@@ -430,11 +409,10 @@ h1, h2, h3, h4, h5, h6 {
   background-image: repeating-linear-gradient(to bottom right, #fafafa 0%, #ddd 100%);
   background-image: -ms-repeating-linear-gradient(top left, #fafafa 0%, #ddd 100%);
 }
-<<<<<<< HEAD
 
 #fh5co-home .lead {
   margin-top:10px;
-  color:#fff;
+  color:#4d4d4d;
 }
 
 #fh5co-home .hero-logo {
@@ -442,15 +420,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-home #ticker, #fh5co-home #ticker_value {
-  color:#fff;
+  color:#4D4D4D;
   margin-top:50px;
 }
 #fh5co-home, #fh5co-home .text-wrap {
   height: 700px;
-=======
-#fh5co-home, #fh5co-home .text-wrap {
-  height: 900px;
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -477,67 +451,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-home .text-inner h1 {
   font-size: 50px;
-<<<<<<< HEAD
-  color: #fff;
-=======
   color: #4D4D4D;
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
   margin: 0 0 20px 0;
 }
 #fh5co-home .text-inner h2 {
   font-size: 28px;
   line-height: 38px;
   font-weight: 300;
-<<<<<<< HEAD
-  color: #fff;
-  margin: 0;
-}
-
-#fh5co-header #navbar li a {
-  color: rgba(255, 255, 255, 1) !important;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-
-#fh5co-header.navbar-fixed-top #navbar li a {
-  color:rgba(0,0,0,0.5) !important;
-}
-
-#faq-section a {
-  color:#777;
-}
-
-.navbar-brand > img.darkit {display:none;}
-#fh5co-header.navbar-fixed-top .navbar-brand > img.darkit {display:block;}
-#fh5co-header.navbar-fixed-top .navbar-brand > img.lightit {display:none;}
-
-
-.navbar-nav > li > .dropdown__trigger {
-  color: rgba(255, 255, 255, 1) !important;
-  padding:10px 15px;
-  font-weight:400;
-}
-
-#fh5co-header.navbar-fixed-top #navbar .navbar-nav > li > .dropdown__trigger {
-  color:rgba(0, 0, 0, 0.5) !important;
-
-}
-
-#fh5co-header #navbar li .dropdown__container .dropdown__content .menu-vertical li a {
-  color:rgba(0,0,0,0.5) !important;
-}
-
-.lang-menu .menu-vertical {
-  padding-right:1em;
-}
-
-=======
   color: #4D4D4D;
   margin: 0;
 }
 
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 .slant {
   position: absolute;
   transform: rotate(-1.7deg);
@@ -1227,12 +1151,8 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-<<<<<<< HEAD
-  padding-bottom: 15px;
-=======
   padding-bottom: 50px;
   margin-bottom: 50px;
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
   clear: both;
 }
 .section-heading h2 {
@@ -1382,29 +1302,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
   border-bottom: none !important;
 }
-<<<<<<< HEAD
 @media screen and (max-width: 767px) {
   .fh5co-nav-toggle {
     display: block;
   }
-
-  #fh5co-header.navbar-fixed-top .navbar-brand > img.darkit,  .navbar-brand > img.darkit {display:block !important;}
-  #fh5co-header.navbar-fixed-top .navbar-brand > img.lightit, .navbar-brand > img.lightit {display:none !important;}
-
-  #fh5co-header #navbar li a, #fh5co-header.navbar-fixed-top #navbar li a, .navbar-nav > li > .dropdown__trigger, #fh5co-header.navbar-fixed-top .navbar-nav > li > .dropdown__trigger {
-    color:rgba(0,0,0,0.5) !important;
-  }
-
-
-}
-.type--fine-print {
-    font-size: 0.85714286em;
-=======
-@media screen and (max-width: 768px) {
-  .fh5co-nav-toggle {
-    display: block;
-  }
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 }
 
 #footer {
@@ -1574,11 +1475,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
 }
 
-<<<<<<< HEAD
-/*.js .to-animate,
-=======
 .js .to-animate,
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 .js .to-animate-2,
 .js .single-animate {
   opacity: 0;
@@ -1586,11 +1483,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .js .to-animate, .js .to-animate-2, .js .single-animate {
     opacity: 0;
-<<<<<<< HEAD
-}*/
-=======
 }
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
@@ -1654,11 +1547,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top i {
   color: #252525;
-<<<<<<< HEAD
   display:block;
   margin-top:7px;
-=======
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 }
 .back-to-top:not(.active) {
   opacity: 0;
@@ -1705,7 +1595,6 @@ ol.lead li:not(:last-child) {
   max-height: 2.78571429em;
 }
 @media all and (min-width: 768px) {
-<<<<<<< HEAD
 
   .navbar-nav > li > .dropdown__trigger {
       padding-top: 17.5px;
@@ -1724,8 +1613,6 @@ ol.lead li:not(:last-child) {
 
     
 
-=======
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
   .list-inline--images li:not(:last-child) {
     margin-right: 5.57142857em;
   }
@@ -1792,174 +1679,5 @@ footer.footer-6.bg--dark .footer__lower {
 footer.footer-6.bg--secondary .footer__lower {
   background: #f5f5f5;
 }
-<<<<<<< HEAD
-section.space--xs,
-footer.space--xs {
-  padding-top: 3.71428571em;
-  padding-bottom: 3.71428571em;
-}
 
-.social-list a {
-  color: #252525;
-}
-
-.imagebg:not(.image--light) .social-list a {
-  color: #fff;
-}
-
-@media all and (max-width: 767px) {
-  .list-inline:not(.social-list):not(.list-inline--images) {
-    display: block;
-  }
-  .list-inline:not(.social-list):not(.list-inline--images) li {
-    display: block;
-    margin: 0;
-  }
-  .list-inline:not(.social-list):not(.list-inline--images) li:not(:last-child) {
-    margin-bottom: 0.46428571em;
-  }
-}
-
-.notification.side-menu .social-list:not(:first-child) {
-  margin-top: 1.85714286em;
-}
-
-.nav-sidebar-column .social-list {
-  margin-bottom: 0.92857143em;
-}
-
-.menu-fullscreen .social-list {
-  margin-right: 0;
-}
-
-@media all and (max-width: 767px) {
-  .card .list-inline:not(.social-list) li {
-    display: inline-block;
-  }
-  .card .list-inline:not(.social-list) li:not(:first-child) {
-    margin-left: 0.92857143em;
-  }
-}
-
-/*! -- Stack Footers -- */
-footer .type--fine-print:not(p) {
-  opacity: .5;
-}
-footer a {
-  font-weight: normal;
-}
-footer:not(.bg--primary):not(.bg--dark) a {
-  color: #666666;
-}
-footer a.type--fine-print:not(:first-child) {
-  margin-left: 1.85714286em;
-}
-footer .logo {
-  max-height: 1.67142857em;
-}
-footer ul:not(.list-inline):not(.slides) > li {
-  line-height: 2.32142857em !important;
-}
-footer.footer-2 .row:last-child {
-  margin-top: 3.71428571em;
-}
-footer.footer-5 .row [class*='col-'] > div:nth-last-child(2) {
-  margin: 0.92857143em;
-}
-footer.footer-5 .row [class*='col-'] > div:nth-last-child(2) .type--fine-print {
-  opacity: 1;
-}
-footer.footer-6 .footer__lower {
-  background: #fafafa;
-  margin-top: 1.85714286em;
-  padding: 1.85714286em 0;
-}
-footer.footer-6.bg--dark .footer__lower {
-  background: #181818;
-}
-footer.footer-6.bg--secondary .footer__lower {
-  background: #f5f5f5;
-}
-footer.footer-6.bg--primary .footer__lower {
-  background: #3483de;
-}
-footer.footer-7 {
-  padding: 1.85714286em 0;
-}
-@media all and (min-width: 768px) {
-  footer .list-inline + .btn {
-    position: relative;
-    bottom: 4px;
-  }
-  footer .logo {
-    margin: 0;
-  }
-  footer .logo:not(:last-child) {
-    margin-right: 1.85714286em;
-  }
-  footer.footer-3 .logo + ul {
-    position: relative;
-    top: 5px;
-  }
-  footer.footer-3 .logo + ul a {
-    color: #252525;
-  }
-  footer.footer-3 .social-list {
-    position: relative;
-    top: 9px;
-  }
-  footer.footer-3 .row:last-child {
-    margin-top: 1.85714286em;
-  }
-  footer.footer-4 .logo + span {
-    position: relative;
-    top: 8px;
-  }
-  footer.footer-4 form {
-    position: relative;
-    bottom: 4px;
-  }
-  footer.footer-4 .row:last-child {
-    margin-top: 1.85714286em;
-  }
-  footer.imagebg:not(.image--light) span,
-  footer.imagebg:not(.image--light) p,
-  footer.imagebg:not(.image--light) a {
-    color: #fff;
-  }
-  .footer-1 .type--fine-print {
-    position: relative;
-    top: 2px;
-  }
-}
-@media all and (max-width: 767px) {
-  footer .social-list {
-    margin: 1.85714286em 0;
-  }
-  .footer-4 form {
-    margin: 1.85714286em 0;
-  }
-  .footer-4 .logo {
-    margin: 0;
-  }
-  .footer-6 .footer__lower .social-list {
-    margin-top: 1.85714286em;
-  }
-  .footer-7 .social-list {
-    margin-top: 1.85714286em;
-  }
-  .footer-1 .social-list {
-    margin-top: 1.85714286em;
-  }
-  .footer-1 .logo {
-    display: block;
-    margin-top: 1.85714286em;
-    margin-bottom: 0.92857143em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-=======
-
->>>>>>> Merged in BCH logos demo repo, added additional js/css, disabled some css from bitcoincash.org home to prevent conflicts. Added logo assets in multiple formats.
 /*# sourceMappingURL=style.css.map */
