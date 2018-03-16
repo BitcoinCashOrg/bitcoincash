@@ -26,6 +26,7 @@ en:
     services: "Services"
     projects: "Projects"
     exchanges: "Exchanges"
+    history: "History"
     faq: "FAQ"
   layout:
     bitcoin_cash: "Bitcoin Cash"
@@ -52,6 +53,7 @@ en:
     services: "Services"
     projects: "Projects"
     exchanges: "Exchanges"
+    history: "History"
     faq: "Frequently Asked Questions"
   content:
     about:

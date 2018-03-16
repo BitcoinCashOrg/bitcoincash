@@ -143,3 +143,246 @@ p.question {
     white-space: normal;
   }
 }
+
+.bch-timeline-container {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.bch-timeline-container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#bch-timeline {
+  position: relative;
+  padding: 0 0 2em;
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+
+#bch-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+
+@media only screen and (min-width: 1170px) {
+  #bch-timeline {
+    margin-top: 0em;
+    padding-top: 0;
+    margin-bottom: 3em;
+  }
+
+  #bch-timeline::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+}
+
+.bch-timeline-block {
+  position: relative;
+  margin: 2em 0;
+}
+
+.bch-timeline-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bch-timeline-block:first-child {
+  margin-top: 0;
+}
+
+.bch-timeline-block:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1170px) {
+  .bch-timeline-block {
+    margin: 2em 0;
+  }
+
+  .bch-timeline-block:first-child {
+    margin-top: 0;
+  }
+
+  .bch-timeline-block:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.bch-timeline-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.bch-timeline-img img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+
+.bch-timeline-img.release {
+  background: #4CAF50;
+}
+
+.bch-timeline-img.exchange {
+  background: #FF5722;
+}
+
+.bch-timeline-img.mining {
+  background: #009688;
+}
+
+.bch-timeline-img.rocket {
+    background: #9C27B0;
+}
+
+.bch-timeline-img.bullhorn {
+    background: #3F51B5;
+}
+
+@media only screen and (min-width: 1170px) {
+  .bch-timeline-img {
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    margin-left: -30px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+}
+
+.bch-timeline-content {
+  position: relative;
+  margin-left: 60px;
+  background: #fafafa;
+  border-radius: 0.25em;
+  padding: 1em;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.bch-timeline-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bch-timeline-content .bch-date {
+  opacity: .5;
+  padding: .8em 0.5em .8em 0;
+}
+
+.bch-timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 0.75em;
+  margin-right: -0.4em;
+  right: 100%;
+  height: 0;
+  width: 0;
+  box-sizing: border-box;
+
+  border: 0.2em solid black;
+  border-color: transparent transparent #fafafa #fafafa;
+
+  transform-origin: 0 0;
+  transform: rotate(45deg);
+
+  box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.bch-timeline-block .bch-timeline-content .bch-read-more {
+  float: right;
+  padding-left: 0.8em;
+}
+
+.bch-timeline-block .bch-timeline-content .bch-read-more a img {
+  vertical-align: top;
+}
+
+@media only screen and (min-width: 1170px) {
+  .bch-timeline-content {
+    margin-left: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+    width: 45%;
+  }
+
+  .bch-timeline-content::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: white;
+  }
+
+  .bch-timeline-content .bch-date {
+    position: absolute;
+    width: 100%;
+    left: 122%;
+    top: 6px;
+    font-size: 16px;
+    font-size: 1rem;
+    padding-right: 0;
+    opacity: 0.7;
+  }
+
+  .bch-timeline-block:nth-child(even) .bch-timeline-content {
+    float: right;
+  }
+
+  .bch-timeline-block:nth-child(even) .bch-timeline-content::before {
+    left: auto;
+    right: 100%;
+    margin-right: -0.5em;
+
+    border: 0.25em solid black;
+    border-color: transparent transparent #fafafa #fafafa;
+  }
+
+  .bch-timeline-block:nth-child(odd) .bch-timeline-content::before {
+    right: auto;
+    left: 100%;
+    margin-right: -0.5em;
+
+    border: 0.25em solid black;
+    border-color: #fafafa #fafafa  transparent transparent;
+    box-shadow: 3px -3px 6px rgba(0, 0, 0, 0.16);
+  }
+
+  .bch-timeline-block:nth-child(even) .bch-timeline-content .bch-date {
+    left: auto;
+    right: 122%;
+    text-align: right;
+  }
+
+  .bch-timeline-img img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+  }
+}

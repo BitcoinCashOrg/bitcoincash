@@ -1,4 +1,6 @@
 theme/**/*
 html/**/index.html
 html/*.html
+html/history/*.html
+.idea/
 nginx.conf

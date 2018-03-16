@@ -1,0 +1,710 @@
+[
+  {
+    "type": "release",
+    "date": "18 November 2017",
+    "text": "<a href=\"https:\/\/thebitcoincash.fund\/\">Bitcoin Cash Fund<\/a> initiative launched.",
+    "proof": "https:\/\/twitter.com\/BITCOlNCASH\/status\/931539698962415616"
+  },
+  {
+    "type": "bullhorn",
+    "date": "18 November 2017",
+    "text": "<a href=\"https:\/\/wirexapp.com\/\">Wirex<\/a> announces plans to support BCH.",
+    "proof": "https:\/\/wirexapp.com\/wirex-to-support-bitcoin-cash\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "17 November 2017",
+    "text": "<a href=\"https:\/\/www.bitcoin.com\/\">Bitcoin.com<\/a> launches BCH radio ad on 150 stations.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/7ddzmr\/i_just_started_paying_for_this_bitcoin_cash_radio\/"
+  },
+  {
+    "type": "release",
+    "date": "17 November 2017",
+    "text": "<a href=\"https:\/\/archive.org\/\">Internet Archive<\/a> starts accepting BCH donations.",
+    "proof": "https:\/\/cointelegraph.com\/news\/internet-archive-now-accepts-bitcoin-cash-and-zcash-as-donations"
+  },
+  {
+    "type": "bullhorn",
+    "date": "17 November 2017",
+    "text": "<a href=\"https:\/\/www.gdax.com\/\">GDAX<\/a> exchange announces plans to support BCH.",
+    "proof": "https:\/\/blog.gdax.com\/bitcoin-segwit2x-update-9abcc4de2d00"
+  },
+  {
+    "type": "bullhorn",
+    "date": "16 November 2017",
+    "text": "<a href=\"https:\/\/www.bitwala.com\/\">Bitwala<\/a> announces plans to support BCH.",
+    "proof": "https:\/\/www.bitwala.com\/bitcoin-cash-recovery\/"
+  },
+  {
+    "type": "exchange",
+    "date": "16 November 2017",
+    "text": "<a href=\"https:\/\/www.kucoin.com\/\">KUCoin<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/twitter.com\/kucoincom\/status\/930782961703591937"
+  },
+  {
+    "type": "mining",
+    "date": "16 November 2017",
+    "text": "<a href=\"www.btcc.net\/\">BTCC<\/a> launches BCH mining pool.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/7dbx6p\/btcc_has_introduced_bitcoin_cash_bch_mining\/"
+  },
+  {
+    "type": "exchange",
+    "date": "16 November 2017",
+    "text": "<a href=\"https:\/\/cex.io\/\">CEX.IO<\/a> exchange adds BCH margin trading.",
+    "proof": "https:\/\/blog.cex.io\/news\/bch-margin-trading-16721"
+  },
+  {
+    "type": "release",
+    "date": "15 November 2017",
+    "text": "<a href=\"https:\/\/jaxx.io\/\">Jaxx<\/a> adds BCH wallet support.",
+    "proof": "https:\/\/www.bitsonline.com\/jaxx-supports-bitcoin-cash\/"
+  },
+  {
+    "type": "mining",
+    "date": "15 November 2017",
+    "text": "<a href=\"https:\/\/www.genesis-mining.com\/\">Genesis Mining<\/a> announces plans to mine BCH.",
+    "proof": "http:\/\/blog.genesis-mining.com\/monthly-service-update-october-2017"
+  },
+  {
+    "type": "bullhorn",
+    "date": "15 November 2017",
+    "text": "<a href=\"https:\/\/www.blockchain.com\/\">Blockchain.com<\/a> announces plans to add BCH.",
+    "proof": "https:\/\/blog.blockchain.com\/2017\/12\/14\/bitcoin-cash\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "15 November 2017",
+    "text": "<a href=\"https:\/\/www.bitmex.com\/\">Bitmex<\/a> exchange adds adds BCH trading.",
+    "proof": "https:\/\/news.bitcoin.com\/bitmex-launches-bitcoin-cash-futures-announces-bch-distribution\/"
+  },
+  {
+    "type": "exchange",
+    "date": "14 November 2017",
+    "text": "<a href=\"https:\/\/www.surbtc.com\/\">SurBTC<\/a> exchange adds BCH trading.",
+    "proof": "http:\/\/www.newsbtc.com\/2017\/11\/15\/latin-american-exchange-surbtc-now-supports-bitcoin-cash\/"
+  },
+  {
+    "type": "exchange",
+    "date": "14 November 2017",
+    "text": "<a href=\"https:\/\/www.etoro.com\/\">eToro<\/a> social trading platform adds BCH trading.",
+    "proof": "https:\/\/investorsbuz.com\/2017\/11\/18\/etoro-adds-bitcoin-cash\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "14 November 2017",
+    "text": "<a href=\"http:\/\/www.kim.com\/\">Kim Dotcom<\/a> publicly supports BCH.",
+    "proof": "https:\/\/twitter.com\/njal_la\/status\/930417225013628928?lang=en"
+  },
+  {
+    "type": "release",
+    "date": "14 November 2017",
+    "text": "<a href=\"https:\/\/njal.la\/\">Njalla<\/a> domain Registrar adds BCH support.",
+    "proof": "https:\/\/twitter.com\/njal_la\/status\/930417225013628928?lang=en"
+  },
+  {
+    "type": "exchange",
+    "date": "14 November 2017",
+    "text": "<a href=\"https:\/\/bittylicious.com\/\">Bittylicious<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/help.bittylicious.com\/index.php\/Bitcoin_Cash"
+  },
+  {
+    "type": "exchange",
+    "date": "13 November 2017",
+    "text": "<a href=\"https:\/\/www.tradesatoshi.com\/\">Trade Satoshi<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/twitter.com\/BITCOlNCASH\/status\/930196096042725376"
+  },
+  {
+    "type": "release",
+    "date": "13 November 2017",
+    "text": "Bitcoin Cash hard-forks successfully.",
+    "proof": "https:\/\/news.bitcoin.com\/bitcoin-cash-network-completes-a-successful-hard-fork\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "13 November 2017",
+    "text": "<a href=\"https:\/\/www.bitstamp.net\">Bitstamp<\/a> exchange announces plans to add BCH trading.",
+    "proof": "http:\/\/bitcoinist.com\/bitstamp-to-add-bitcoin-cash-trading-in-december\/"
+  },
+  {
+    "type": "rocket",
+    "date": "11 November 2017",
+    "text": "Bitcoin Cash overtakes Ethereum to be #2 with a market cap of $30 Billion.",
+    "proof": "http:\/\/uk.businessinsider.com\/bitcoin-cash-price-skyrockets-to-2500"
+  },
+  {
+    "type": "bullhorn",
+    "date": "11 November 2017",
+    "text": "<a href=\"https:\/\/twitter.com\/gavinandresen\">Gavin Andresen<\/a> publicly supports BCH.",
+    "proof": "https:\/\/news.bitcoin.com\/satoshi-nakamotos-confidant-gavin-andresen-throws-support-behind-bitcoin-cash\/"
+  },
+  {
+    "type": "rocket",
+    "date": "11 November 2017",
+    "text": "Bitcoin Cash overtakes BTC daily trading volume: $6.2B vs $5.5B.",
+    "proof": "https:\/\/twitter.com\/BITCOlNCASH\/status\/929424184102477825"
+  },
+  {
+    "type": "release",
+    "date": "11 November 2017",
+    "text": "<a href=\"https:\/\/www.bovada.lv\/\">Bovada<\/a> sports betting adds BCH support.",
+    "proof": "https:\/\/calvinayre.com\/2017\/11\/12\/bitcoin\/bovada-accepting-bitcoin-cash-bch-deposits\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "11 November 2017",
+    "text": "<a href=\"https:\/\/xapo.com\/\">Xapo<\/a> president states that the biggest companies might be moving to BCH.",
+    "proof": "https:\/\/www.ccn.com\/xapo-president-biggest-bitcoin-companies-move-bitcoin-cash-ethereum\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "10 November 2017",
+    "text": "<a href=\"https:\/\/www.forbes.com\">Forbes<\/a> writes an article on BCH.",
+    "proof": "https:\/\/www.forbes.com\/sites\/laurashin\/2017\/11\/12\/bitcoin-cash-skyrockets-bitcoin-price-drops-as-civil-war-continues\/#42ab912a35b5"
+  },
+  {
+    "type": "bullhorn",
+    "date": "10 November 2017",
+    "text": "<a href=\"https:\/\/bitpay.com\/\">BitPay<\/a> co-founder hints at future BCH support.",
+    "proof": "https:\/\/twitter.com\/BITCOlNCASH\/status\/929160950321573888"
+  },
+  {
+    "type": "bullhorn",
+    "date": "10 November 2017",
+    "text": "<a href=\"https:\/\/www.bloomberg.com\">Bloomberg<\/a> writes another article on BCH.",
+    "proof": "https:\/\/www.bloomberg.com\/news\/articles\/2017-11-10\/bitcoin-jesus-praises-new-coin-as-7-million-wager-falls-through"
+  },
+  {
+    "type": "rocket",
+    "date": "10 November 2017",
+    "text": "Bitcoin Cash price reaches $1000.",
+    "proof": "https:\/\/www.forbes.com\/sites\/cbovaird\/2017\/11\/10\/bitcoin-cash-surpasses-1000-after-fork-fails\/#41c72b67111e"
+  },
+  {
+    "type": "bullhorn",
+    "date": "10 November 2017",
+    "text": "<a href=\"http:\/\/www.businessinsider.com\/\">Business Insider<\/a> writes an article on BCH.",
+    "proof": "http:\/\/uk.businessinsider.com\/bitcoin-cash-price-jumps-bitcoin-falls-november-10-2017-11"
+  },
+  {
+    "type": "bullhorn",
+    "date": "08 November 2017",
+    "text": "<a href=\"https:\/\/www.bitcoin.com\/\">Bitcoin.com<\/a> announces full company support if Segit2x fails.",
+    "proof": "https:\/\/twitter.com\/BITCOlNCASH\/status\/928367627935690752"
+  },
+  {
+    "type": "release",
+    "date": "05 November 2017",
+    "text": "<a href=\"https:\/\/bitcoinplug.com\">BitcoinPlug<\/a> adds BCH ATM support.",
+    "proof": "http:\/\/www.newsbtc.com\/2017\/11\/03\/bitcoinplug-will-enable-bitcoin-cash-los-angeles-atms-soon\/"
+  },
+  {
+    "type": "rocket",
+    "date": "02 November 2017",
+    "text": "Bitcoin Cash reaches $10 billion market cap.",
+    "proof": "https:\/\/www.ccn.com\/194-billion-bitcoin-price-rally-launches-crypto-market-cap-stratosphere\/"
+  },
+  {
+    "type": "release",
+    "date": "01 November 2017",
+    "text": "<a href=\"https:\/\/wikileaks.org\/\">Wikileaks<\/a> shop adds BCH payments.",
+    "proof": "https:\/\/cryptovest.com\/news\/wikileaks-accepts-bitcoin-cash\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "30 October 2017",
+    "text": "Bitcoin Cash hard fork announced.",
+    "proof": "https:\/\/www.bitcoinabc.org\/november"
+  },
+  {
+    "type": "exchange",
+    "date": "28 October 2017",
+    "text": "<a href=\"https:\/\/www.okex.com\/\">OKEx<\/a> exchange adds BCH futures trading.",
+    "proof": "http:\/\/www.trustnodes.com\/2017\/10\/28\/bitpay-might-add-bitcoin-cash-okex-launch-bch-futures"
+  },
+  {
+    "type": "bullhorn",
+    "date": "27 October 2017",
+    "text": "<a href=\"https:\/\/bitpay.com\/\">BitPay<\/a> CEO hints at possible future BCH merchant integration.",
+    "proof": "https:\/\/www.reddit.com\/r\/btc\/comments\/7976p9\/bitpay_ceo_hints_at_possible_bitcoin_cash\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "25 October 2017",
+    "text": "World's first 1 GB block mined on the testnet.",
+    "proof": "https:\/\/news.bitcoin.com\/gigablock-testnet-researchers-mine-the-worlds-first-1gb-block\/"
+  },
+  {
+    "type": "release",
+    "date": "19 October 2017",
+    "text": "<a href=\"https:\/\/www.unitwallet.co\/\">Unit<\/a> wallet releases BCH wallet.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/77ei2d\/unit_wallet_mobile_spv_wallet_for_bitcoin_cash_is\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "19 October 2017",
+    "text": "<a href=\"https:\/\/www.bitcoin.com\/\">Bitcoin.com<\/a> publishes \"Bitcoin Cash is Bitcoin\" article.",
+    "proof": "https:\/\/www.bitcoin.com\/info\/bitcoin-cash-is-bitcoin"
+  },
+  {
+    "type": "release",
+    "date": "16 October 2017",
+    "text": "<a href=\"https:\/\/cryptograffiti.com\/\">CryptoGraffiti<\/a> adds BCH payments.",
+    "proof": "http:\/\/www.newsbtc.com\/2017\/10\/16\/cryptograffiti-rejects-bitcoin-core-bch-now-available-payment-method\/"
+  },
+  {
+    "type": "release",
+    "date": "13 October 2017",
+    "text": "<a href=\"https:\/\/www.mobi.me\/\">Mobi<\/a> adds BCH wallet support.",
+    "proof": "https:\/\/www.btcc.com\/news\/en\/announcements\/2017\/10\/12\/mobi-wallets\/"
+  },
+  {
+    "type": "release",
+    "date": "13 October 2017",
+    "text": "<a href=\"https:\/\/www.exodus.io\/\">Exodus<\/a> adds BCH wallet support.",
+    "proof": "http:\/\/www.allcryptocurrencies.news\/bitcoin-cash\/exodus-adds-ethereum-classic-etc-and-bitcoin-cash-bch-support-2\/"
+  },
+  {
+    "type": "release",
+    "date": "06 October 2017",
+    "text": "<a href=\"https:\/\/simplefx.com\">SimpleFX<\/a> adds BCH payments.",
+    "proof": "http:\/\/www.newsbtc.com\/2017\/10\/05\/simplefx-adds-bitcoin-cash\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "29 September 2017",
+    "text": "<a href=\"https:\/\/www.bloomberg.com\">Bloomberg<\/a> writes an article on BCH.",
+    "proof": "https:\/\/www.bloomberg.com\/news\/articles\/2017-09-29\/paying-15-to-send-25-has-bitcoin-users-rethinking-practicality"
+  },
+  {
+    "type": "release",
+    "date": "29 September 2017",
+    "text": "<a href=\"https:\/\/acceptbitcoin.cash\/\">Accept Bitcoin Cash<\/a> initiative launches.",
+    "proof": "https:\/\/www.reddit.com\/r\/btc\/comments\/739kr6\/acceptbitcoincash_got_a_facelift_in_honor_of\/"
+  },
+  {
+    "type": "exchange",
+    "date": "27 September 2017",
+    "text": "<a href=\"https:\/\/www.alfacashier.com\/\">ALFAcashier<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/twitter.com\/ALFAcashier\/status\/912964169070252032"
+  },
+  {
+    "type": "release",
+    "date": "26 September 2017",
+    "text": "<a href=\"https:\/\/www.bitcoin.com\/\">Bitcoin.com<\/a> launches BCH price converter website.",
+    "proof": "https:\/\/tools.bitcoin.com\/"
+  },
+  {
+    "type": "release",
+    "date": "26 September 2017",
+    "text": "<a href=\"https:\/\/www.zebpay.com\/\">Zepbay<\/a> adds BCH support.",
+    "proof": "https:\/\/www.reddit.com\/r\/btc\/comments\/71fc8b\/hello_india_zebpay_supports_bitcoin_cash\/"
+  },
+  {
+    "type": "release",
+    "date": "24 September 2017",
+    "text": "<a href=\"https:\/\/satoshidice.com\/\">SatoshiDice<\/a> relaunches, now on BCH.",
+    "proof": "https:\/\/twitter.com\/BITCOlNCASH\/status\/911973934412607488"
+  },
+  {
+    "type": "release",
+    "date": "23 September 2017",
+    "text": "New BCH website <a href=\"https:\/\/www.bitcoincash.org\">bitcoincash.org<\/a> launched.",
+    "proof": "https:\/\/twitter.com\/BITCOlNCASH\/status\/911672479260614657"
+  },
+  {
+    "type": "release",
+    "date": "20 September 2017",
+    "text": "<a href=\"https:\/\/uphold.com\/\">Uphold<\/a> adds BCH support.",
+    "proof": "https:\/\/uphold.com\/en\/press-media\/posts\/press-releases\/uphold-goes-live-with-bitcoin-cash"
+  },
+  {
+    "type": "release",
+    "date": "17 September 2017",
+    "text": "<a href=\"https:\/\/bitpay.com\/\">BitPay<\/a> adds BCH wallet support.",
+    "proof": "https:\/\/news.bitcoin.com\/bitpay-adds-bitcoin-cash-support-to-copay-wallet-and-insight-block-explorer\/"
+  },
+  {
+    "type": "exchange",
+    "date": "12 September 2017",
+    "text": "<a href=\"https:\/\/coinmix.to\/\">Coinmix.to<\/a> launches the first BCH mixing service.",
+    "proof": "https:\/\/www.reddit.com\/r\/btc\/comments\/6zmudg\/the_first_bitcoin_cash_coin_mixer_coinmixto_has\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "11 September 2017",
+    "text": "<a href=\"https:\/\/jaxx.io\/\">Jaxx<\/a> announces plans to add BCH to wallet.",
+    "proof": "https:\/\/www.cryptoninjas.net\/2017\/09\/10\/jaxx-include-bitcoin-cash-support-starting-week\/"
+  },
+  {
+    "type": "release",
+    "date": "07 September 2017",
+    "text": "<a href=\"https:\/\/blocknet.co\/\">Blocknet<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/twitter.com\/the_blocknet\/status\/905837378937516032"
+  },
+  {
+    "type": "release",
+    "date": "05 September 2017",
+    "text": "<a href=\"https:\/\/np.reddit.com\/r\/tippr\/wiki\/index\">Tippr Bot<\/a> launches BCH tipping on Reddit & Twitter.",
+    "proof": "https:\/\/www.reddit.com\/r\/btc\/comments\/6zbok8\/tipprim_a_bitcoincash_tip_bot_for_reddit_and\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "04 September 2017",
+    "text": "<a href=\"https:\/\/www.generalbytes.com\/\">General Bytes<\/a> announces plans to add BCH to ATMs.",
+    "proof": "https:\/\/twitter.com\/generalbytes\/status\/904615862291894272"
+  },
+  {
+    "type": "release",
+    "date": "01 September 2017",
+    "text": "<a href=\"https:\/\/copay.io\/\">Copay<\/a> adds BCH wallet support.",
+    "proof": "https:\/\/blog.bitpay.com\/bitcoin-cash-wallet-beta\/"
+  },
+  {
+    "type": "mining",
+    "date": "31 August 2017",
+    "text": "<a href=\"https:\/\/www.btcc.com\/\">BTCC<\/a> mining pool mines their first BCH block.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/7dzwgr\/btcc_have_mined_their_first_bch_block\/"
+  },
+  {
+    "type": "release",
+    "date": "31 August 2017",
+    "text": "<a href=\"https:\/\/strongcoin.com\/\">StrongCoin<\/a> adds BCH wallet support.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/6x65qx\/strongcoin_wallet_adds_bitcoin_cash\/"
+  },
+  {
+    "type": "release",
+    "date": "31 August 2017",
+    "text": "<a href=\"https:\/\/www.bitgo.com\/\">BitGo<\/a> adds BCH support.",
+    "proof": "https:\/\/blog.bitgo.com\/bch-availability-c252727ea1be"
+  },
+  {
+    "type": "rocket",
+    "date": "24 August 2017",
+    "text": "Over 50% of hash power switches to BCH for the first time.",
+    "proof": "https:\/\/medium.com\/@BillionairePal\/black-swan-event-bitcoin-cash-has-now-more-hash-power-than-bitcoin-crash-immanent-84874b7c5ae6"
+  },
+  {
+    "type": "release",
+    "date": "23 August 2017",
+    "text": "<a href=\"https:\/\/www.yours.org\/\">Yours<\/a> switches from Litecoin to BCH.",
+    "proof": "https:\/\/news.bitcoin.com\/reward-based-social-media-platform-yours-switches-from-litecoin-to-bitcoin-cash\/"
+  },
+  {
+    "type": "mining",
+    "date": "22 August 2017",
+    "text": "<a href=\"https:\/\/www.f2pool.com\/\">F2Pool<\/a> mining pool mines their first BCH block.",
+    "proof": "http:\/\/www.trustnodes.com\/2017\/08\/22\/f2pool-antpool-start-mining-bitcoin-cash-50-blocks-found-one-hour"
+  },
+  {
+    "type": "exchange",
+    "date": "22 August 2017",
+    "text": "<a href=\"https:\/\/www.okcoin.com\/\">OKCoin<\/a> exchange adds BCH trading.",
+    "proof": "http:\/\/www.trustnodes.com\/2017\/08\/22\/huobi-okcoin-start-trading-bitcoin-cash-coinbase-keeps-taking-flak"
+  },
+  {
+    "type": "exchange",
+    "date": "22 August 2017",
+    "text": "<a href=\"https:\/\/www.huobi.pro\/\">Huobi<\/a> exchange adds BCH trading.",
+    "proof": "http:\/\/www.trustnodes.com\/2017\/08\/01\/huobi-start-bitcoin-cash-trading-btcc-already-listing-bcc"
+  },
+  {
+    "type": "mining",
+    "date": "20 August 2017",
+    "text": "<a href=\"https:\/\/www.antpool.com\/\">Antpool<\/a> mining pool mines their first BCH block.",
+    "proof": "https:\/\/steemit.com\/bitcoin\/@techwizardry\/breaking-antpool-mines-its-first-bitcoin-cash-block"
+  },
+  {
+    "type": "rocket",
+    "date": "18 August 2017",
+    "text": "BTC to BCH is the most popular trade on Shapeshift.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/6vjown\/btc_bch_most_popular_trade_on_shapeshift_right_now\/"
+  },
+  {
+    "type": "rocket",
+    "date": "18 August 2017",
+    "text": "Bitcoin Cash overtakes BTC daily trading volume for the first time: $3.1B vs $2.7B.",
+    "proof": "https:\/\/steemkr.com\/bitcoin\/@sirwinchester\/bitcoin-cash-more-profitable-to-mine-than-btc-overtakes-btc-trading-volume-what-are-the-reasons"
+  },
+  {
+    "type": "exchange",
+    "date": "16 August 2017",
+    "text": "<a href=\"https:\/\/cex.io\/\">CEX.IO<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/blog.cex.io\/news\/bitcoin-cash-balances-bch-trading-launch-16419"
+  },
+  {
+    "type": "rocket",
+    "date": "16 August 2017",
+    "text": "The first 8MB \/ 37,000 transaction block mined.",
+    "proof": "https:\/\/www.ccn.com\/first-8mb-bitcoin-cash-block-just-mined\/"
+  },
+  {
+    "type": "exchange",
+    "date": "14 August 2017",
+    "text": "<a href=\"https:\/\/poloniex.com\/\">Poloniex<\/a> exchange adds BCH trading.",
+    "proof": "http:\/\/www.livebitcoinnews.com\/bitcoin-cash-now-trading-poloniex-exchange\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "13 August 2017",
+    "text": "<a href=\"https:\/\/www.bitgo.com\/\">BitGo<\/a> announces plans to add full BCH wallet support.",
+    "proof": "https:\/\/blog.bitgo.com\/bitcoin-cash-bch-update-6dced6c8c53d"
+  },
+  {
+    "type": "release",
+    "date": "09 August 2017",
+    "text": "<a href=\"https:\/\/rocketr.net\/\">Rocketr<\/a> adds BCH support.",
+    "proof": "https:\/\/rocketr.net\/blog\/2017\/07\/30\/bitcoin-cash-coming-rocketr\/"
+  },
+  {
+    "type": "release",
+    "date": "09 August 2017",
+    "text": "<a href=\"https:\/\/www.keepkey.com\/\">KeepKey<\/a> adds BCH wallet support.",
+    "proof": "http:\/\/www.newsbtc.com\/2017\/08\/07\/australias-btcmarkets-exchange-enables-bitcoin-cash-trading-aud-btc\/"
+  },
+  {
+    "type": "exchange",
+    "date": "08 August 2017",
+    "text": "<a href=\"https:\/\/evercoin.com\/\">Evercoin<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/twitter.com\/everc0in\/status\/894960058945200130"
+  },
+  {
+    "type": "exchange",
+    "date": "07 August 2017",
+    "text": "<a href=\"https:\/\/coinone.co.kr\/\">Coinone<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/twitter.com\/coinone_info\/status\/894702228614729728"
+  },
+  {
+    "type": "exchange",
+    "date": "06 August 2017",
+    "text": "<a href=\"https:\/\/www.btcmarkets.net\/\">BTCMarkets<\/a> exchange adds BCH trading.",
+    "proof": "http:\/\/www.newsbtc.com\/2017\/08\/07\/australias-btcmarkets-exchange-enables-bitcoin-cash-trading-aud-btc\/"
+  },
+  {
+    "type": "release",
+    "date": "05 August 2017",
+    "text": "<a href=\"https:\/\/coinomi.com\/\">Coinomi<\/a> adds BCH wallet support.",
+    "proof": "https:\/\/coinomi.freshdesk.com\/support\/solutions\/articles\/29000013752-btc-bch-fork-how-to-collect-your-bch-post-fork-only"
+  },
+  {
+    "type": "release",
+    "date": "04 August 2017",
+    "text": "<a href=\"https:\/\/btc.com\/\">BTC.com<\/a> adds BCH wallet support.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/6vb9e2\/btccom_releases_bitcoin_cash_wallet_for_ios_and\/"
+  },
+  {
+    "type": "exchange",
+    "date": "03 August 2017",
+    "text": "<a href=\"https:\/\/www.btcbox.co.jp\/\">BTCBOX<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/coinjournal.net\/complete-guide-bitcoin-cash-supporting-exchanges-wallets-trading-advice\/"
+  },
+  {
+    "type": "exchange",
+    "date": "03 August 2017",
+    "text": "<a href=\"https:\/\/changelly.com\">Changelly<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/changelly.com\/blog\/exchange-bitcoin-btc-bitcoin-cash-bcc-bch\/"
+  },
+  {
+    "type": "exchange",
+    "date": "03 August 2017",
+    "text": "<a href=\"https:\/\/shapeshift.io\/\">Shapeshift<\/a> exchange adds BCH trading.",
+    "proof": "http:\/\/www.trustnodes.com\/2017\/08\/04\/coinbase-poloniex-distribute-bitcoin-cash-shapeshift-adds-bccbch"
+  },
+  {
+    "type": "bullhorn",
+    "date": "03 August 2017",
+    "text": "<a href=\"https:\/\/poloniex.com\/\">Poloniex<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/poloniex.com\/press-releases\/2017.08.03-Bitcoin-Cash-Update\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "03 August 2017",
+    "text": "<a href=\"https:\/\/www.coinbase.com\">Coinbase<\/a> announces plans to support BCH.",
+    "proof": "https:\/\/blog.coinbase.com\/update-on-bitcoin-cash-8a67a7e8dbdf"
+  },
+  {
+    "type": "bullhorn",
+    "date": "02 August 2017",
+    "text": "<a href=\"https:\/\/twitter.com\/officialmcafee\">John McAfee<\/a> publicly supports BCH.",
+    "proof": "https:\/\/twitter.com\/officialmcafee\/status\/929409149695381505"
+  },
+  {
+    "type": "exchange",
+    "date": "02 August 2017",
+    "text": "<a href=\"https:\/\/www.binance.com\">Binance<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/support.binance.com\/hc\/en-us\/articles\/115000906991-The-Announcement-for-BCC-Distribution-"
+  },
+  {
+    "type": "rocket",
+    "date": "02 August 2017",
+    "text": "Bitcoin Cash reaches #3 by market cap = $7 billion.",
+    "proof": "https:\/\/qz.com\/1044413\/bitcoin-cash-is-already-the-third-most-valuable-cryptocurrency\/"
+  },
+  {
+    "type": "release",
+    "date": "02 August 2017",
+    "text": "<a href=\"https:\/\/trezor.io\">Trezor<\/a> adds BCH wallet support.",
+    "proof": "https:\/\/blog.trezor.io\/claim-bcash-bitcoin-cash-bch-bcc-trezor-wallet-f0a810d5864a"
+  },
+  {
+    "type": "release",
+    "date": "02 August 2017",
+    "text": "<a href=\"https:\/\/freewallet.org\/\">Freewallet<\/a> releases BCH wallet.",
+    "proof": "https:\/\/cointelegraph.com\/press-releases\/freewallet-launches-first-mobile-bitcoin-cash-wallet-users-received-bccbch"
+  },
+  {
+    "type": "exchange",
+    "date": "01 August 2017",
+    "text": "<a href=\"https:\/\/bittrex.com\">Bittrex<\/a> exchange adds BCH trading.",
+    "proof": "http:\/\/www.newsbtc.com\/2017\/08\/04\/bittrex-exchange-finally-opens-bitcoin-cash-deposits\/"
+  },
+  {
+    "type": "mining",
+    "date": "01 August 2017",
+    "text": "<a href=\"https:\/\/www.viabtc.com\/\">ViaBTC<\/a> mining pool mines the first BCH block.",
+    "proof": "https:\/\/blockchair.com\/bitcoin-cash\/block\/478559"
+  },
+  {
+    "type": "rocket",
+    "date": "01 August 2017",
+    "text": "Bitcoin Cash forks off BTC prior to Segwit activation.",
+    "proof": "https:\/\/www.theverge.com\/2017\/8\/1\/16075276\/bitcoin-cash-hard-fork-coinbase"
+  },
+  {
+    "type": "exchange",
+    "date": "31 July 2017",
+    "text": "<a href=\"https:\/\/yobit.net\/en\/\">Yobit<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/yobit.net\/en\/trade\/BCC\/BTC"
+  },
+  {
+    "type": "release",
+    "date": "31 July 2017",
+    "text": "<a href=\"https:\/\/electroncash.org\/\">Electron Cash<\/a> releases BCH Wallet.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/6qmkjo\/electron_cash_wallet_up_and_running_now_available\/"
+  },
+  {
+    "type": "release",
+    "date": "30 July 2017",
+    "text": "<a href=\"https:\/\/bitcoinclassic.com\/\">Bitcoin Classic<\/a> team releases compatible client software.",
+    "proof": "https:\/\/bitcoinclassic.com\/news\/release138uahf.html"
+  },
+  {
+    "type": "bullhorn",
+    "date": "30 July 2017",
+    "text": "<a href=\"https:\/\/liqui.io\/\">Liqui<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/twitter.com\/liqui_exchange\/status\/891638228888977408?lang=en"
+  },
+  {
+    "type": "release",
+    "date": "29 July 2017",
+    "text": "<a href=\"https:\/\/coin.dance\/\">Coin Dance<\/a> launches BCH specific website",
+    "proof": "https:\/\/www.reddit.com\/r\/BitcoinAll\/comments\/6qc7lm\/coin_dance_launches_a_new_bitcoin_cashspecific\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "29 July 2017",
+    "text": "<a href=\"https:\/\/hitbtc.com\/\">HitBTC<\/a> Exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/blog.hitbtc.com\/our-statement-on-bitcoincash-support\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "29 July 2017",
+    "text": "<a href=\"https:\/\/www.korbit.co.kr\">Korbit<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/news.bitcoin.com\/fork-watch-korean-bitcoin-exchanges-bitcoin-cash\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "29 July 2017",
+    "text": "<a href=\"https:\/\/coinfloor.co.uk\/\">Coinfloor<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/blog.coinfloor.co.uk\/post\/163532243506\/coinfloor-to-list-bitcoin-cash-bch-in-addition"
+  },
+  {
+    "type": "bullhorn",
+    "date": "29 July 2017",
+    "text": "<a href=\"https:\/\/www.kraken.com\/\">Kraken<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/blog.kraken.com\/post\/1150\/bitcoin-cash-and-a-critical-alert-for-bitcoin-margin-traders\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "29 July 2017",
+    "text": "<a href=\"https:\/\/www.bitfinex.com\/\">Bitfinex<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/www.bitfinex.com\/posts?ip=86.18.217.67&page=2&user_agent=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_12_6%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F65.0.3294.0+Safari%2F537.36"
+  },
+  {
+    "type": "release",
+    "date": "29 July 2017",
+    "text": "<a href=\"https:\/\/bitcoinxt.software\">Bitcoin XT<\/a> team releases compatible client software.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/6q9pq2\/bitcoinxt_releases_bitcoin_cash_compatible_client\/"
+  },
+  {
+    "type": "release",
+    "date": "28 July 2017",
+    "text": "<a href=\"https:\/\/www.bitcoinunlimited.info\/\">Bitcoin Unlimited<\/a> team releases compatible client software.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/btc\/comments\/6q4add\/bitcoin_unlimited_cash_edition_1100_has_just_been\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "27 July 2017",
+    "text": "<a href=\"https:\/\/btcpop.co\/home.php\">BTCPOP<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/blog.btcpop.co\/2017\/07\/19\/preparation-for-hard-forks\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "25 July 2017",
+    "text": "<a href=\"https:\/\/twitter.com\/rogerkver\">Roger Ver<\/a> publicly supports BCH.",
+    "proof": "https:\/\/twitter.com\/rogerkver\/status\/889566148781498368"
+  },
+  {
+    "type": "exchange",
+    "date": "25 July 2017",
+    "text": "<a href=\"https:\/\/www.okcoin.com\/\">OKCoin<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/www.okcoin.com\/t-429.html"
+  },
+  {
+    "type": "bullhorn",
+    "date": "24 July 2017",
+    "text": "<a href=\"https:\/\/www.bithumb.com\/\">Bithumb<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/bitcoinmagazine.com\/articles\/these-bitcoin-exchanges-and-wallets-are-supporting-bitcoin-cash\/"
+  },
+  {
+    "type": "release",
+    "date": "24 July 2017",
+    "text": "<a href=\"https:\/\/www.ledgerwallet.com\/\">Ledger<\/a> adds BCH wallet support.",
+    "proof": "https:\/\/www.np.reddit.com\/r\/Bitcoin\/comments\/6qqco1\/ledger_bitcoin_app_now_supports_bch\/"
+  },
+  {
+    "type": "release",
+    "date": "24 July 2017",
+    "text": "<a href=\"https:\/\/coinmarketcap.com\/\">CoinMarketCap<\/a> adds BCH to index.",
+    "proof": "https:\/\/coinmarketcap.com\/currencies\/bitcoin-cash\/historical-data\/?start=20130428&end=20171222"
+  },
+  {
+    "type": "bullhorn",
+    "date": "23 July 2017",
+    "text": "<a href=\"https:\/\/www.bit.trade\/en\/home\">Bit Trade<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/news.bitcoin.com\/japanese-exchanges-prepare-to-deal-with-forked-bitcoin-cash\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "23 July 2017",
+    "text": "<a href=\"https:\/\/www.bitpoint.co.jp\/\">Bitpoint<\/a> exchange announces plans to add BCH trading.",
+    "proof": "https:\/\/news.bitcoin.com\/japanese-exchanges-bitcoin-cash-post-fork\/"
+  },
+  {
+    "type": "bullhorn",
+    "date": "23 July 2017",
+    "text": "<a href=\"https:\/\/btc.com\/stats\/pool\/BTC.TOP\">BTC.TOP<\/a> mining pool announces they will mine BCH.",
+    "proof": "http:\/\/www.trustnodes.com\/2017\/08\/19\/one-bitcoins-biggest-mining-pool-btc-top-start-mining-bitcoin-cash"
+  },
+  {
+    "type": "exchange",
+    "date": "22 July 2017",
+    "text": "<a href=\"https:\/\/www.viabtc.com\/\">ViaBTC<\/a> exchange adds BCH trading.",
+    "proof": "https:\/\/news.bitcoin.com\/viabtc-launching-bitcoin-cash-token-mining-pool-bitcoin-abc\/"
+  },
+  {
+    "type": "release",
+    "date": "12 July 2017",
+    "text": "<a href=\"https:\/\/www.bitcoinabc.org\/\">Bitcoin ABC<\/a> team releases compatible client software.",
+    "proof": "http:\/\/www.trustnodes.com\/2017\/07\/15\/bitcoin-will-hardfork-big-blockers-will-chain-split-meet-bitcoinabc"
+  }
+]
