@@ -16,8 +16,9 @@
         <link href="/css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/socicon.css" rel="stylesheet" type="text/css" media="all" />
         <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="/css/custom.css?v=1" rel="stylesheet" type="text/css" media="all" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+        <link href="/css/lang.css?v=1" rel="stylesheet" type="text/css" media="all" />
+        <link href="/css/custom.css?v=2" rel="stylesheet" type="text/css" media="all" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i&subset=latin,latin-ext" rel="stylesheet">
         <!-- Global Site Tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17656782-2"></script>
         <script>
@@ -47,17 +48,17 @@ gtag('config', 'UA-17656782-2');
                     </div>
                 </div>
             </div>
-            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs hiddem-sm" style="min-height: 90px;">
+            <nav id="menu1" class="bar bar--sm bar-1 hidden-xs" style="min-height: 90px;">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4 col-sm-3 hidden-xs">
+                        <div class="col-md-3 col-sm-3 hidden-xs">
                             <div class="bar__module">
                                 <a href="/">
                                     <img class="logo logo-dark" alt="<%= I18n.t(:'misc.logo').strip %>" src="/img/logo-dark.png" />
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-8 col-sm-12 text-right text-left-xs text-left-sm">
+                        <div class="col-md-9 col-sm-12 text-right text-left-xs text-left-sm">
                             <div class="bar__module">
                                 <ul class="menu-horizontal text-left">
                                     <li>
@@ -112,6 +113,34 @@ gtag('config', 'UA-17656782-2');
                                         <a href="#faq" class="inner-link">
                                             <%= I18n.t(:'sections.faq').strip %>
                                         </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <span class="dropdown__trigger"><%= I18n.t(:language).strip %></span>
+                                        <div class="dropdown__container">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="dropdown__content lang-menu">
+                                                        <%-
+                                                            I18n.available_locales.map { |locale|
+                                                              [locale, I18n.t(:language, :locale => locale).strip]
+                                                            }
+                                                            .sort_by { |pair| pair[1] }
+                                                            .each_slice(8) do |group|
+                                                        -%>
+                                                        <ul class="menu-vertical">
+                                                            <%- group.each do |pair| -%>
+                                                            <li>
+                                                                <a href="/<%= pair[0].to_s.downcase %>/">
+                                                                <%= pair[1] %>
+                                                                </a>
+                                                            </li>
+                                                            <%- end -%>
+                                                        </ul>
+                                                        <%- end -%>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -231,6 +260,9 @@ gtag('config', 'UA-17656782-2');
                         <div class="col-sm-6 col-md-6 vertical-align">
                             <a href="https://www.bitprim.org/" target="_blank"><img alt="Bitprim" src="/img/wallets/bitprim.png"></a>
                         </div>
+                        <div class="col-sm-6 col-md-6 vertical-align">
+                            <a href="http://www.flowee.org/" target="_blank"><img alt="Flowee The Hub" src="/img/wallets/flowee.png"></a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -261,11 +293,17 @@ gtag('config', 'UA-17656782-2');
                         <div class="col-sm-6 col-md-3 vertical-align">
                             <a href="https://www.bitcoin.com/choose-your-wallet/bitcoin-com-wallet" target="_blank"><img alt="Bitcoin.com" src="/img/wallets/bitcoindotcom.png"></a>
                         </div>
-                        <div class="col-sm-4 col-md-3 vertical-align">
-                            <a href="https://www.coinbase.com/" target="_blank"><img alt="Coinbase" src="/img/wallets/coinbase.png"></a>
-                        </div>
                         <div class="col-sm-6 col-md-3 vertical-align">
                             <a href="https://www.exodus.io/" target="_blank"><img alt="Exodus" src="/img/wallets/exodus.png"></a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 vertical-align">
+                            <a href="https://breadapp.com/" target="_blank"><img alt="Bread" src="/img/wallets/bread.png"></a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 vertical-align">
+                            <a href="https://edgesecure.co/" target="_blank"><img alt="Edge" src="/img/wallets/edge.png"></a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 vertical-align">
+                            <a href="https://www.coinbase.com/" target="_blank"><img alt="Coinbase" src="/img/exchanges/coinbase.png"></a>
                         </div>
                         <div class="col-sm-6 col-md-3 vertical-align">
                             <a href="https://bcc-wallet.btc.com/" target="_blank"><img alt="BCC Wallet" src="/img/wallets/btcdotcom.png"></a>
@@ -297,16 +335,28 @@ gtag('config', 'UA-17656782-2');
                         <div class="col-sm-6 col-md-3 vertical-align">
                             <a href="https://bitcoin-india.org/" target="_blank"><img alt="Bitcoin India" src="/img/wallets/bitcoinindia.png"></a>
                         </div>
-                        <div class="col-sm6 col-md-3 vertical-align">
+                        <div class="col-sm-6 col-md-3 vertical-align">
                             <a href="https://www.melis.io/" target="_blank"><img alt="Melis" src="/img/wallets/melisio.png"></a>
                         </div>
-                        <div class="col-sm6 col-md-3 vertical-align">
+                        <div class="col-sm-6 col-md-3 vertical-align">
                             <a href="https://www.coin.space" target="_blank"><img alt="Coin Space" src="/img/wallets/coinspace.png"></a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 vertical-align">
+                            <a href="https://www.coldlar.com/" target="_blank"><img alt="Coldlar Wallet" src="/img/wallets/coldlar.png"></a>
+                        </div>
+                        <div class="col-sm6 col-md-3 vertical-align">
+                            <a href="https://guarda.co/" target="_blank"><img alt="Guarda Wallet" src="/img/wallets/guarda.png"></a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 vertical-align">
+                            <a href="https://www.iPayYou.io/tk/BitcoinCashOrg/" target="_blank"><img alt="I Pay You" src="/img/wallets/ipayyou.png"></a>
+                        </div>
+                        <div class="col-sm-6 col-md-3 vertical-align">
+                            <a href="https://play.google.com/store/apps/details?id=com.hashengineering.bitcoincash.wallet" target="_blank"><img alt="Bitcoin Cash Wallet" src="/img/wallets/bitcoincashwallet.png"></a>
                         </div>
                         <div class="col-sm-6 col-md-3 vertical-align">
                             <a href="https://cashaddress.org/" target="_blank"><img alt="Cash Address" src="/img/wallets/cashaddress.png"></a>
                         </div>
-                        <div class="col-sm6 col-md-3 vertical-align">
+                        <div class="col-sm-6 col-md-3 vertical-align">
                             <a href="https://walletgenerator.net/?currency=BitcoinCash" target="_blank"><img alt="WalletGenerator.net" src="/img/wallets/walletgenerator.png"></a>
                         </div>
                     </div>
@@ -321,6 +371,9 @@ gtag('config', 'UA-17656782-2');
                         </div>
                     </div>
                     <div class="row">
+                        <div class="col-sm-4 col-md-3 vertical-align">
+                            <a href="https://bitpay.com" target="_blank"><img alt="Bitpay" src="/img/wallets/bitpay.png"></a>
+                        </div>
                         <div class="col-sm-4 col-md-3 vertical-align">
                             <a href="https://rocketr.net/" target="_blank"><img alt="Rocketr" src="/img/services/rocketr.png"></a>
                         </div>
@@ -407,6 +460,9 @@ gtag('config', 'UA-17656782-2');
                         </div>
                         <div class="col-sm-4 col-md-3 vertical-align">
                             <a href="https://cashshuffle.com" target="_blank"><img alt="CashShuffle" src="/img/projects/cashshuffle.png"></a>
+                        </div>
+                        <div class="col-sm-4 col-md-3 vertical-align">
+                            <a href="https://www.bitbox.earth" target="_blank"><img alt="BITBOX" src="/img/projects/bitbox.png"></a>
                         </div>
                     </div>
                 </div>
@@ -532,6 +588,9 @@ gtag('config', 'UA-17656782-2');
                             <a href="https://www.localbitcoincash.org/" target="_blank"><img alt="LocalBitcoinCash" src="/img/exchanges/localbitcoincash.png"></a>
                         </div>
                         <div class="col-sm-4 col-md-3 vertical-align">
+                            <a href="https://www.coinbase.com/" target="_blank"><img alt="Coinbase" src="/img/exchanges/coinbase.png"></a>
+                        </div>
+                        <div class="col-sm-4 col-md-3 vertical-align">
                             <a href="https://www.gdax.com/" target="_blank"><img alt="GDAX" src="/img/exchanges/gdax.png"></a>
                         </div>
                         <div class="col-sm-4 col-md-3 vertical-align">
@@ -546,8 +605,11 @@ gtag('config', 'UA-17656782-2');
                         <div class="col-sm-4 col-md-3 vertical-align">
                             <a href="https://coinfalcon.com" target="_blank"><img alt="CoinFalcon" src="/img/exchanges/coinfalcon.png"></a>
                         </div>
-                         <div class="col-sm-4 col-md-3 vertical-align">
-                            <a href="https://godex.io" target="_blank"><img alt="Godex" src="/img/exchanges/godex.png"></a>
+                        <div class="col-sm-4 col-md-3 vertical-align">
+                            <a href="https://exmo.com" target="_blank"><img alt="Exmo" src="/img/exchanges/exmo.png"></a>     
+                        </div>
+                        <div class="col-sm-4 col-md-3 vertical-align">
+                           <a href="https://godex.io" target="_blank"><img alt="Godex" src="/img/exchanges/godex.png"></a>
                         </div>
                     </div>
                 </div>
