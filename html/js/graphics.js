@@ -576,18 +576,19 @@
 
 
     // Animations
-    homeAnimate();
-    introAnimate();
-    workAnimate();
-    testimonialAnimate();
-    servicesAnimate();
-    aboutAnimate();
-    logosAnimate();
-    merchantAnimate();
-    donationAnimate();
-    identityAnimate();
-    countersAnimate();
-    contactAnimate();
+    
+    // homeAnimate();
+    // introAnimate();
+    // workAnimate();
+    // testimonialAnimate();
+    // servicesAnimate();
+    // aboutAnimate();
+    // logosAnimate();
+    // merchantAnimate();
+    // donationAnimate();
+    // identityAnimate();
+    // countersAnimate();
+    // contactAnimate();
     
 
   });
