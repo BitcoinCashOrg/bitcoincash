@@ -105,7 +105,7 @@ gtag('config', 'UA-17656782-2');
                             </div>
                         </li>
                         <li>
-                            <a href="#faq" class="inner-link">
+                            <a href="#faq" data-nav-section="faq" class="inner-link">
                                 <span><%= I18n.t(:'sections.faq').strip %></span>
                             </a>
                         </li>
@@ -125,7 +125,7 @@ gtag('config', 'UA-17656782-2');
                                             <ul class="menu-vertical">
                                                 <%- group.each do |pair| -%>
                                                 <li>
-                                                    <a href="/<%= pair[0].to_s.downcase %>/">
+                                                    <a href="/<%= pair[0].to_s.downcase %>/" class="external">
                                                     <%= pair[1] %>
                                                     </a>
                                                 </li>
@@ -255,7 +255,7 @@ gtag('config', 'UA-17656782-2');
                         <div class="col-sm-6 col-md-6 vertical-align to-animate">
                             <a href="https://www.bitprim.org/" target="_blank"><img alt="Bitprim" src="/img/wallets/bitprim.png"></a>
                         </div>
-                        <div class="col-sm-6 col-md-6 vertical-align">
+                        <div class="col-sm-6 col-md-6 vertical-align to-animate">
                             <a href="http://www.flowee.org/" target="_blank"><img alt="Flowee The Hub" src="/img/wallets/flowee.png"></a>
                         </div>
                     </div>
@@ -456,7 +456,7 @@ gtag('config', 'UA-17656782-2');
                         <div class="col-sm-4 col-md-3 vertical-align to-animate">
                             <a href="https://cashshuffle.com" target="_blank"><img alt="CashShuffle" src="/img/projects/cashshuffle.png"></a>
                         </div>
-                        <div class="col-sm-4 col-md-3 vertical-align">
+                        <div class="col-sm-4 col-md-3 vertical-align to-animate">
                             <a href="https://www.bitbox.earth" target="_blank"><img alt="BITBOX" src="/img/projects/bitbox.png"></a>
                         </div>
                     </div>
@@ -600,7 +600,7 @@ gtag('config', 'UA-17656782-2');
                         <div class="col-sm-4 col-md-3 vertical-align to-animate">
                             <a href="https://coinfalcon.com" target="_blank"><img alt="CoinFalcon" src="/img/exchanges/coinfalcon.png"></a>
                         </div>
-                        <div class="col-sm-4 col-md-3 vertical-align">
+                        <div class="col-sm-4 col-md-3 vertical-align to-animate">
                             <a href="https://exmo.com" target="_blank"><img alt="Exmo" src="/img/exchanges/exmo.png"></a>
                         </div>
                     </div>
