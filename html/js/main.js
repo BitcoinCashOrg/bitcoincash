@@ -68,7 +68,7 @@
 
 				if ( $('[data-section="' + section + '"]').length ) {
 			    	$('html, body').animate({
-			        	scrollTop: $('[data-section="' + section + '"]').offset().top
+			        	scrollTop: $('[data-section="' + section + '"]').offset().top-50
 			    	}, 500);
 			   }
 

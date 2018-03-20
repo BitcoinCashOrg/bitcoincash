@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="/css/icomoon.css">
         <link rel="stylesheet" href="/css/graphics.css">
 
-        <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
 
         <script src="/js/modernizr-2.6.2.min.js"></script>
 
@@ -49,36 +49,31 @@ gtag('config', 'UA-17656782-2');
                 <nav class="navbar navbar-default">
                     <div class="navbar-header">
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                    <a class="navbar-brand" href="../"><img src="/graphics/img/6-bitcoin-cash-logo-horizontal-small.png" alt="Bitcoin Cash"></a> 
+                    <a class="navbar-brand" href="../"><img src="/graphics/img/5-bitcoin-cash-logo-horizontal-wt-small.png" alt="Bitcoin Cash" class="lightit">
+                    <img src="/graphics/img/6-bitcoin-cash-logo-horizontal-small.png" alt="Bitcoin Cash" class="darkit">
+                    </a> 
                     </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                      <!-- <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-                        <li><a href="#" data-nav-section="logos"><span>Logos</span></a></li>
-                        <li><a href="#" data-nav-section="merchant"><span>Merchant</span></a></li>
-                        <li><a href="#" data-nav-section="donation"><span>Donations</span></a></li> 
-                        <li><a href="#" data-nav-section="identity"><span>Identity</span></a></li> 
-                    </ul> -->
+                    <div id="navbar" class="navbar-collapse collaZpse">
 
                     <ul class="nav navbar-nav navbar-right homepage">
                         <li>
                             <a href="#about" data-nav-section="about" class="inner-link">
-                                <%= I18n.t(:'sections.about').strip %>
+                                <span><%= I18n.t(:'sections.about').strip %></span>
                             </a>
                         </li>
                         <li>
                             <a href="#features" data-nav-section="features" class="inner-link">
-                                <%= I18n.t(:'sections.features').strip %>
+                                <span><%= I18n.t(:'sections.features').strip %></span>
                             </a>
                         </li>
                         <li>
                             <a href="#nodes" data-nav-section="nodes" class="inner-link">
-                                <%= I18n.t(:'sections.nodes').strip %>
+                                <span><%= I18n.t(:'sections.nodes').strip %></span>
                             </a>
                         </li>
                         <li>
                             <a href="#wallets" data-nav-section="wallets" class="inner-link">
-                                <%= I18n.t(:'sections.wallets').strip %>
+                                <span><%= I18n.t(:'sections.wallets').strip %></span>
                             </a>
                         </li>
                         <li class="dropdown">
@@ -104,7 +99,7 @@ gtag('config', 'UA-17656782-2');
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a href="/graphics/">
+                                                    <a href="/graphics/" class="external">
                                                         <%= I18n.t(:'sections.graphics').strip %>
                                                     </a>
                                                 </li>
@@ -116,7 +111,7 @@ gtag('config', 'UA-17656782-2');
                         </li>
                         <li>
                             <a href="#faq" class="inner-link">
-                                <%= I18n.t(:'sections.faq').strip %>
+                                <span><%= I18n.t(:'sections.faq').strip %></span>
                             </a>
                         </li>
                         <li class="dropdown">
@@ -153,19 +148,19 @@ gtag('config', 'UA-17656782-2');
             </div>
         </header>
 
-        <section id="fh5co-home" data-section="home" style="background-image: url(/graphics/img/full_image_2.jpg);" data-stellar-background-ratio="0.5">
+        <section id="fh5co-home" data-section="home" class="site-header" data-stellar-background-ratio="0.5">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4 text-center hero-logo to-animate">
-                        <img alt="<%= I18n.t(:'layout.bitcoin_cash').strip %>" src="/graphics/img/3-bitcoin-cash-ogo-ot.svg">
+                        <img alt="<%= I18n.t(:'layout.bitcoin_cash').strip %>" src="/graphics/img/2-bitcoin-cash-logo-wt.svg">
                         <p class="lead">
                             <%= I18n.t(:'layout.lead').strip %>
                         </p>
                     </div>
                 </div>
-                <div class="row to-animate">
+                <div class="row">
                     <div class="col-sm-12 ticker text-center">
-                        <span id="ticker_value"><%= I18n.t(:'layout.loading').strip %></span>
+                        <span id="ticker_value" class="to-animate"><%= I18n.t(:'layout.loading').strip %></span>
                     </div>
                 </div>
             </div>
