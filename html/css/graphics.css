@@ -1527,7 +1527,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
 }
 
-.js .to-animate,
+/*.js .to-animate,
 .js .to-animate-2,
 .js .single-animate {
   opacity: 0;
@@ -1535,7 +1535,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .js .to-animate, .js .to-animate-2, .js .single-animate {
     opacity: 0;
-}
+}*/
 
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
