@@ -1736,4 +1736,164 @@ footer.space--xs {
   padding-bottom: 3.71428571em;
 }
 
+.social-list a {
+  color: #252525;
+}
+
+.imagebg:not(.image--light) .social-list a {
+  color: #fff;
+}
+
+@media all and (max-width: 767px) {
+  .list-inline:not(.social-list):not(.list-inline--images) {
+    display: block;
+  }
+  .list-inline:not(.social-list):not(.list-inline--images) li {
+    display: block;
+    margin: 0;
+  }
+  .list-inline:not(.social-list):not(.list-inline--images) li:not(:last-child) {
+    margin-bottom: 0.46428571em;
+  }
+}
+
+.notification.side-menu .social-list:not(:first-child) {
+  margin-top: 1.85714286em;
+}
+
+.nav-sidebar-column .social-list {
+  margin-bottom: 0.92857143em;
+}
+
+.menu-fullscreen .social-list {
+  margin-right: 0;
+}
+
+@media all and (max-width: 767px) {
+  .card .list-inline:not(.social-list) li {
+    display: inline-block;
+  }
+  .card .list-inline:not(.social-list) li:not(:first-child) {
+    margin-left: 0.92857143em;
+  }
+}
+
+/*! -- Stack Footers -- */
+footer .type--fine-print:not(p) {
+  opacity: .5;
+}
+footer a {
+  font-weight: normal;
+}
+footer:not(.bg--primary):not(.bg--dark) a {
+  color: #666666;
+}
+footer a.type--fine-print:not(:first-child) {
+  margin-left: 1.85714286em;
+}
+footer .logo {
+  max-height: 1.67142857em;
+}
+footer ul:not(.list-inline):not(.slides) > li {
+  line-height: 2.32142857em !important;
+}
+footer.footer-2 .row:last-child {
+  margin-top: 3.71428571em;
+}
+footer.footer-5 .row [class*='col-'] > div:nth-last-child(2) {
+  margin: 0.92857143em;
+}
+footer.footer-5 .row [class*='col-'] > div:nth-last-child(2) .type--fine-print {
+  opacity: 1;
+}
+footer.footer-6 .footer__lower {
+  background: #fafafa;
+  margin-top: 1.85714286em;
+  padding: 1.85714286em 0;
+}
+footer.footer-6.bg--dark .footer__lower {
+  background: #181818;
+}
+footer.footer-6.bg--secondary .footer__lower {
+  background: #f5f5f5;
+}
+footer.footer-6.bg--primary .footer__lower {
+  background: #3483de;
+}
+footer.footer-7 {
+  padding: 1.85714286em 0;
+}
+@media all and (min-width: 768px) {
+  footer .list-inline + .btn {
+    position: relative;
+    bottom: 4px;
+  }
+  footer .logo {
+    margin: 0;
+  }
+  footer .logo:not(:last-child) {
+    margin-right: 1.85714286em;
+  }
+  footer.footer-3 .logo + ul {
+    position: relative;
+    top: 5px;
+  }
+  footer.footer-3 .logo + ul a {
+    color: #252525;
+  }
+  footer.footer-3 .social-list {
+    position: relative;
+    top: 9px;
+  }
+  footer.footer-3 .row:last-child {
+    margin-top: 1.85714286em;
+  }
+  footer.footer-4 .logo + span {
+    position: relative;
+    top: 8px;
+  }
+  footer.footer-4 form {
+    position: relative;
+    bottom: 4px;
+  }
+  footer.footer-4 .row:last-child {
+    margin-top: 1.85714286em;
+  }
+  footer.imagebg:not(.image--light) span,
+  footer.imagebg:not(.image--light) p,
+  footer.imagebg:not(.image--light) a {
+    color: #fff;
+  }
+  .footer-1 .type--fine-print {
+    position: relative;
+    top: 2px;
+  }
+}
+@media all and (max-width: 767px) {
+  footer .social-list {
+    margin: 1.85714286em 0;
+  }
+  .footer-4 form {
+    margin: 1.85714286em 0;
+  }
+  .footer-4 .logo {
+    margin: 0;
+  }
+  .footer-6 .footer__lower .social-list {
+    margin-top: 1.85714286em;
+  }
+  .footer-7 .social-list {
+    margin-top: 1.85714286em;
+  }
+  .footer-1 .social-list {
+    margin-top: 1.85714286em;
+  }
+  .footer-1 .logo {
+    display: block;
+    margin-top: 1.85714286em;
+    margin-bottom: 0.92857143em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
