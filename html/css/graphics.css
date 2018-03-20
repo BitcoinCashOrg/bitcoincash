@@ -208,6 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width:865px) {
   .homepage.navbar-right {
     float: left !important;
+    padding-bottom:0.5em;
   }
 }
 
@@ -473,6 +474,10 @@ h1, h2, h3, h4, h5, h6 {
   color:rgba(0,0,0,0.5) !important;
 }
 
+#faq-section a {
+  color:#777;
+}
+
 .navbar-brand > img.darkit {display:none;}
 #fh5co-header.navbar-fixed-top .navbar-brand > img.darkit {display:block;}
 #fh5co-header.navbar-fixed-top .navbar-brand > img.lightit {display:none;}
@@ -493,6 +498,9 @@ h1, h2, h3, h4, h5, h6 {
   color:rgba(0,0,0,0.5) !important;
 }
 
+.lang-menu .menu-vertical {
+  padding-right:1em;
+}
 
 .slant {
   position: absolute;
@@ -1347,6 +1355,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 
+}
+.type--fine-print {
+    font-size: 0.85714286em;
 }
 
 #footer {

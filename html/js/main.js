@@ -165,7 +165,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -194,7 +194,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInRight animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 1000);
@@ -222,7 +222,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -254,7 +254,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -265,7 +265,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInDown animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, sec);
@@ -296,7 +296,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -307,7 +307,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('bounceIn animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, sec);
@@ -337,7 +337,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -366,7 +366,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -395,7 +395,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -425,7 +425,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -455,7 +455,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -487,7 +487,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -506,7 +506,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('bounceIn animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, sec);
@@ -538,7 +538,7 @@
 							
 							setTimeout ( function () {
 								el.addClass('fadeInUp animated');
-							},  k * 200, 'easeInOutExpo' );
+							},  k * 300, 'easeInOutExpo' );
 							
 						});
 					}, 200);
@@ -567,7 +567,7 @@
 	            
 	            setTimeout ( function () {
 	              el.addClass('fadeInUp animated');
-	            },  k * 200, 'easeInOutExpo' );
+	            },  k * 300, 'easeInOutExpo' );
 	            
 	          });
 	        }, 200);
@@ -595,7 +595,7 @@
 	              
 	              setTimeout ( function () {
 	                el.addClass('fadeInUp animated');
-	              },  k * 200, 'easeInOutExpo' );
+	              },  k * 300, 'easeInOutExpo' );
 	              
 	            });
 	          }, 200);
@@ -622,7 +622,7 @@
 	                  
 	                  setTimeout ( function () {
 	                    el.addClass('fadeInUp animated');
-	                  },  k * 200, 'easeInOutExpo' );
+	                  },  k * 300, 'easeInOutExpo' );
 	                  
 	                });
 	              }, 200);
@@ -650,7 +650,7 @@
 	                
 	                setTimeout ( function () {
 	                  el.addClass('fadeInUp animated');
-	                },  k * 200, 'easeInOutExpo' );
+	                },  k * 300, 'easeInOutExpo' );
 	                
 	              });
 	            }, 200);
@@ -677,7 +677,7 @@
 	              
 	              setTimeout ( function () {
 	                el.addClass('fadeInUp animated');
-	              },  k * 200, 'easeInOutExpo' );
+	              },  k * 300, 'easeInOutExpo' );
 	              
 	            });
 	          }, 200);
@@ -704,7 +704,7 @@
 	                
 	                setTimeout ( function () {
 	                  el.addClass('fadeInUp animated');
-	                },  k * 200, 'easeInOutExpo' );
+	                },  k * 300, 'easeInOutExpo' );
 	                
 	              });
 	            }, 200);
@@ -731,7 +731,7 @@
 	                  
 	                  setTimeout ( function () {
 	                    el.addClass('fadeInUp animated');
-	                  },  k * 200, 'easeInOutExpo' );
+	                  },  k * 300, 'easeInOutExpo' );
 	                  
 	                });
 	              }, 200);
@@ -759,7 +759,7 @@
 	                   
 	                   setTimeout ( function () {
 	                     el.addClass('fadeInUp animated');
-	                   },  k * 200, 'easeInOutExpo' );
+	                   },  k * 300, 'easeInOutExpo' );
 	                   
 	                 });
 	               }, 200);
@@ -786,7 +786,7 @@
                      
                      setTimeout ( function () {
                        el.addClass('fadeInUp animated');
-                     },  k * 200, 'easeInOutExpo' );
+                     },  k * 300, 'easeInOutExpo' );
                      
                    });
                  }, 200);
@@ -813,7 +813,7 @@
                        
                        setTimeout ( function () {
                          el.addClass('fadeInUp animated');
-                       },  k * 200, 'easeInOutExpo' );
+                       },  k * 300, 'easeInOutExpo' );
                        
                      });
                    }, 200);
