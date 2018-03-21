@@ -1,4 +1,9 @@
 /*! Place your custom styles here */
+
+.bar .logo {
+  max-height: 1.3em;
+}
+
 .benefits .row .col-sm-4 {
   margin-bottom: 40px;
 }
@@ -45,7 +50,7 @@ p.release {
 
 @media only screen and (max-device-width: 1024px) {
   .site-header {
-      background-attachment: scroll;
+      background-attachment: scroll !important;
   }
 }
 
