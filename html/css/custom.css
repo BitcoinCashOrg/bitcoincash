@@ -50,7 +50,7 @@ p.release {
 
 @media only screen and (max-device-width: 1024px) {
   .site-header {
-      background-attachment: scroll;
+      background-attachment: scroll !important;
   }
 }
 
